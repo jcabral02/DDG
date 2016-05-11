@@ -899,22 +899,156 @@ footer {
   font-size: 20px;
   line-height: 25px; }
 
-/* Extra small devices (phones, less than 768px) */
-/* Small devices (tablets, 768px and up) */
-@media screen and (min-width: 320px) and (max-width: 768px) {
-  .titulo-portafolio {
-    font-size: 36px;
-    line-height: 36px; }
-  .box-top {
-    padding: 40px 0px 0; }
-  .balazo {
-    font-size: 30px;
-    line-height: 36px;
+@media (max-width: 480px) {
+  #navbar {
+    width: 100%; }
+    #navbar .navbar-toggle {
+      text-align: right;
+      float: right;
+      color: #FFF;
+      background: none; }
+      #navbar .navbar-toggle:after {
+        color: #de0209;
+        font-size: 35px; }
+  #menu-menu-principal-1 li a {
+    padding: 20px 30px; }
+  .home .vc_row .vc_column_container > .vc_column-inner {
+    padding-left: 0;
+    padding-right: 0; }
+  .home .post-home .vc_custom_heading h4 {
+    margin-top: 0 !important; }
+  .home .vc_gitem-zone .vc_gitem_row {
+    height: auto; }
+  .home .block .block-int .subtitle-block .display-text {
+    letter-spacing: normal;
+    margin: 0;
+    font-size: 30px; }
+  .home .block .block-int .subtitle-block .subtitle {
+    font-size: 30px; }
+  .home .event .block-int .date-event .day {
+    font-size: 70px; }
+  .page .title-section {
+    margin: 65px 0 70px !important; }
+    .page .title-section .title, .page .title-section .subtitle {
+      font-size: 45px; }
+    .page .title-section .subtitle {
+      font-size: 27px; }
+      .page .title-section .subtitle a[href="mailto:contacto@danilodesign.com"] {
+        font-size: 20px; }
+  .page .portfolio-filter a, .page .vc_grid-filter a {
+    margin: 0 8px; }
+  .page .portfolio-item-block .info .title, .page .portfolio-item-block .info .title-section .subtitle, .title-section .page .portfolio-item-block .info .subtitle {
+    font-size: 24px; }
+  .page .portfolio-item-block .info .sub-title {
+    line-height: 20px; }
+  .piedefoto, .piedefotoautor {
+    font-size: 13px; }
+  .block-int-services .tactical, .block-int-services .tactical-btn,
+  .block-int-services .tactical-btn {
+    margin-top: 30px; }
+  .block-cta-serv .title-cta, .block-cta-serv .slogan-cta {
+    top: 22%; }
+  .block-cta-serv .slogan-cta {
+    width: 100%; }
+  .single-mgt_portfolio .vc_row.vc_row-o-full-height {
+    min-height: 36.618vh !important; }
+  .single-post .vc_row.vc_row-o-full-height {
+    min-height: 36.618vh !important; }
+  .vc_gitem_row .vc_gitem-col {
+    padding: 50px 30px 0px 30px; }
+  .portfolio-single-content .box-top,
+  .single-post .box-top {
+    padding: 20px; }
+    .portfolio-single-content .box-top .vc_column_container > .vc_column-inner,
+    .single-post .box-top .vc_column_container > .vc_column-inner {
+      padding-left: 0;
+      padding-right: 0; }
+  .portfolio-single-content .titulo-portafolio,
+  .single-post .titulo-portafolio {
+    font-size: 32px;
+    line-height: 47px; }
+  .portfolio-single-content .abstract,
+  .single-post .abstract {
+    font-size: 25px;
+    line-height: 40px; }
+  .portfolio-single-content .balazo, .portfolio-single-content .balazo-negro,
+  .single-post .balazo,
+  .single-post .balazo-negro {
     text-align: left; }
-  .balazo-negro {
-    font-size: 34px;
-    line-height: 42px;
-    text-align: left; } }
-
-/* Medium devices (desktops, 992px and up) */
-/* Large devices (large desktops, 1200px and up) */
+  .portfolio-single-content .balazo,
+  .single-post .balazo {
+    font-size: 30px;
+    line-height: 53px; }
+  .portfolio-single-content .balazo-negro,
+  .single-post .balazo-negro {
+    font-size: 41px;
+    line-height: 69px; }
+  .portfolio-single-content .quote-cliente,
+  .single-post .quote-cliente {
+    font-size: 24px;
+    line-height: 41px; }
+  .portfolio-single-content .vc_custom_1462130212627,
+  .single-post .vc_custom_1462130212627 {
+    padding: 40px 0 30px !important; }
+  .portfolio-single-content .vc_custom_1462130169371,
+  .single-post .vc_custom_1462130169371 {
+    padding: 60px 0 !important; }
+  .portfolio-single-content .vc_custom_1462145902781,
+  .single-post .vc_custom_1462145902781 {
+    padding: 50px 0 !important; }
+  .portfolio-single-content .wpb_text_column.wpb_content_element.vc_custom_1462992898181,
+  .single-post .wpb_text_column.wpb_content_element.vc_custom_1462992898181 {
+    padding: 0 !important; }
+  .portfolio-single-content .vc_custom_1462130169371 .vc_col-sm-6,
+  .single-post .vc_custom_1462130169371 .vc_col-sm-6 {
+    margin: 10px 0; }
+  .portfolio-single-content .block-tags .tags .tag-servicio,
+  .single-post .block-tags .tags .tag-servicio {
+    margin: 8px; }
+  .servicios .vc_col-sm-6 > .vc_column-inner {
+    padding-left: 0;
+    padding-right: 0; }
+  .portfolio-columns-3 .portfolio-item-block {
+    width: 100% !important; }
+  .cuerpo-texto {
+    font-size: 18px; }
+  .autor-rojo {
+    font-size: 33px; }
+  .single .portfolio-item-details .project-content .vc_gitem-zone .vc_gitem_row .vc_gitem-col {
+    top: 10%; }
+  .services .block-services .block-int-serv ul, .services .block-int-services .block-int-serv ul,
+  .services .block-int-services .block-int-serv ul {
+    width: 100%; }
+  .mgt-signup-block {
+    padding: 55px 15px; }
+    .mgt-signup-block .mgt-signup-block-form input.email {
+      width: 100% !important; }
+  .page-id-93 .title-section .subtitle {
+    margin-bottom: 40px; }
+  .block-who-serv .bbd, .block-who-serv .serv, .block-who-serv .bbd,
+  .block-who-serv .bbd,
+  .block-who-serv .serv, .block-who-serv .bbd {
+    padding: 0; }
+    .block-who-serv .bbd h2, .block-who-serv .serv h2, .block-who-serv .bbd h2,
+    .block-who-serv .bbd h2,
+    .block-who-serv .serv h2, .block-who-serv .bbd h2 {
+      margin-top: 0; }
+  .block-perfil {
+    margin-bottom: 100px; }
+    .block-perfil .name-seo h2 {
+      margin-top: 0; }
+  .data-office .btn-gris {
+    margin: 30px 0 30px 0 !important; }
+  .block-who-serv {
+    height: 500px; }
+  .wpcf7-form textarea {
+    width: 212%; }
+  .portfolio-item-block .info {
+    padding: 20px; }
+  footer .footer-top .footer-contact .cta {
+    margin-top: 38px; }
+  footer .footer-bottom span {
+    margin-right: 0; }
+  footer .footer-bottom a {
+    display: block;
+    margin-top: 5px; } }

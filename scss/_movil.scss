@@ -1,41 +1,250 @@
-//Media Queries
-$screen-lg-min: 1200px;
-$screen-md-min: 992px;
-$screen-sm-min: 768px;
+// Media Queries
 
-/* Extra small devices (phones, less than 768px) */
+@media (min-width: 1200px) {
 
-/* Small devices (tablets, 768px and up) */
-@media screen and (min-width:320px) and (max-width:768px) {
+}
+@media (min-width: 768px) and (max-width: 979px) {
 
-  .titulo-portafolio{
-    font-size: 36px;
-    line-height: 36px;
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 480px) {
+  #navbar{
+    width: 100%;
+    .navbar-toggle{
+      text-align: right;
+      float: right;
+      color: #FFF;
+      background: none;
+      &:after{
+        color: rgb(222, 2, 9);
+        font-size: 35px;
+      }
+    }
   }
-  .box-top{
-    padding: 40px 0px 0;
+  #menu-menu-principal-1 {
+    li {
+      a{
+        padding: 20px 30px;
+      }
+    }
   }
-  .balazo{
+  .home{
+    .vc_row .vc_column_container>.vc_column-inner{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .post-home .vc_custom_heading h4{
+      margin-top: 0 !important;
+    }
+    .vc_gitem-zone .vc_gitem_row{
+      height: auto;
+    }
+    .block .block-int .subtitle-block {
+      .display-text{
+        letter-spacing: normal;
+        margin: 0;
+        font-size: 30px;
+      }
+      .subtitle{
+        font-size: 30px;
+      }
+    }
+    .event .block-int .date-event .day{
+      font-size: 70px;
+    }
+  }
+  .page {
+    .title-section{
+      margin: 65px 0 70px !important;
+      .title{
+        font-size: 45px;
+      }
+      .subtitle {
+        font-size: 27px;
+        a[href="mailto:contacto@danilodesign.com"]{
+          font-size: 20px;
+        }
+      }
+    }
+    .portfolio-filter a{
+      margin: 0 8px;
+    }
+    .portfolio-item-block {
+      .info {
+        .title{
+          font-size: 24px;
+        }
+        .sub-title{
+          line-height: 20px;
+        }
+      }
+    }
+  }
+  .piedefoto, .piedefotoautor{
+      font-size: 13px;
+  }
+  .block-int-services .tactical,
+  .block-int-services .tactical-btn{
+    margin-top: 30px;
+  }
+  .block-cta-serv{
+    .title-cta{
+      top: 22%;
+    }
+    .slogan-cta{
+      width: 100%;
+    }
+  }
+  .single-mgt_portfolio{
+    .vc_row.vc_row-o-full-height{
+      min-height: 36.618vh !important;
+    }
+  }
+  .single-post{
+    .vc_row.vc_row-o-full-height{
+      min-height: 36.618vh !important;
+    }
+  }
+  .vc_gitem_row .vc_gitem-col{
+    padding: 50px 30px 0px 30px;
+  }
+  .portfolio-single-content,
+  .single-post{
+    .box-top{
+      padding: 20px;
+      .vc_column_container>.vc_column-inner{
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+    .titulo-portafolio{
+      font-size: 32px;
+      line-height: 47px;
+    }
+    .abstract{
+      font-size: 25px;
+      line-height: 40px;
+    }
+    .balazo, .balazo-negro{
+      text-align: left;
+    }
+    .balazo{
       font-size: 30px;
-      line-height:36px;
-      text-align:left;
+      line-height: 53px;
+    }
+    .balazo-negro{
+      font-size: 41px;
+      line-height: 69px;
+    }
+    .quote-cliente{
+      font-size: 24px;
+      line-height: 41px;
+    }
+    .vc_custom_1462130212627{
+      padding: 40px 0 30px !important;
+    }
+    .vc_custom_1462130169371{
+      padding: 60px 0 !important;
+    }
+    .vc_custom_1462145902781{
+      padding: 50px 0 !important;
+    }
+    .wpb_text_column.wpb_content_element.vc_custom_1462992898181{
+      padding: 0 !important;
+    }
+    .vc_custom_1462130169371 .vc_col-sm-6{
+      margin: 10px 0;
+    }
+    .block-tags {
+      .tags {
+        .tag-servicio{
+          margin: 8px;
+        }
+      }
+    }
   }
-  .balazo-negro{
-    font-size:34px;
-    line-height:42px;
-    text-align:left;
+  .servicios{
+    .vc_col-sm-6>.vc_column-inner{
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
-
-
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: $screen-md-min) {
-
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: $screen-lg-min) {
-
-
+  .portfolio-columns-3 .portfolio-item-block{
+    width: 100% !important;
+  }
+  .cuerpo-texto{
+      font-size: 18px;
+  }
+  .autor-rojo{
+    font-size: 33px;
+  }
+  .single .portfolio-item-details .project-content {
+    .vc_gitem-zone .vc_gitem_row .vc_gitem-col{
+      top: 10%;
+    }
+  }
+  .services .block-services .block-int-serv ul,
+  .services .block-int-services .block-int-serv ul{
+    width: 100%;
+  }
+  .mgt-signup-block {
+    padding: 55px 15px;
+    .mgt-signup-block-form {
+      input.email{
+        width: 100% !important;
+      }
+    }
+  }
+  .page-id-93{
+    .title-section .subtitle{
+      margin-bottom: 40px;
+    }
+  }
+  .block-who-serv,
+  .block-who-serv {
+    .bbd, .serv{
+      padding: 0;
+      h2{
+        margin-top: 0;
+      }
+    }
+  }
+  .block-perfil {
+    margin-bottom: 100px;
+    .name-seo h2{
+      margin-top: 0;
+    }
+  }
+  .data-office{
+    .btn-gris{
+      margin: 30px 0 30px 0 !important;
+    }
+  }
+  .block-who-serv {
+    height: 500px;
+  }
+  .wpcf7-form textarea{
+    width: 212%;
+  }
+  .portfolio-item-block .info{
+    padding: 20px;
+  }
+  footer {
+    .footer-top .footer-contact .cta{
+      margin-top: 38px;
+    }
+    .footer-bottom {
+      span{
+        margin-right: 0;
+      }
+      a{
+        display: block;
+        margin-top: 5px;
+      }
+    }
+  }
 }
