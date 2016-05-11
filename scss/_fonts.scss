@@ -1,0 +1,55 @@
+@mixin TitlinConReg {
+  font-family: "Titling Gothic FB Cond";
+  font-style: normal;
+  font-weight: 400;
+}
+@mixin TitlingConLight {
+  font-family: "Titling Gothic FB Cond";
+  font-style: normal;
+  font-weight: 300;
+}
+@mixin BentonConExLight{
+  font-family: "Benton Sans Cond";
+  font-style: normal;
+  font-weight: 200;
+}
+@mixin BentonConLight {
+  font-family: "Benton Sans Cond";
+  font-style: normal;
+  font-weight: 300;
+}
+@mixin BentonConThin {
+  font-family: "Benton Sans Cond";
+  font-style: normal;
+  font-weight: 100;
+}
+@mixin BentonThin {
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 100;
+}
+@mixin BentonExLight{
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 200 !important;
+}
+@mixin BentonLight {
+  font-family: "Benton Sans" !important;
+  font-style: normal;
+  font-weight: 300;
+}
+@mixin BentonReg {
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 400;
+}
+@mixin BentonMedium {
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 500;
+}
+@mixin BentonBold{
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 600;
+}

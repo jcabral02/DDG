@@ -1,0 +1,1062 @@
+//Body
+body{
+  font-family: "Benton Sans" !important;
+  font-style: normal;
+  font-weight: 200 !important;
+  line-height: 1.2;
+  color: $tundora;
+}
+h1,h2,h3,h4,h5,h6{
+  @include BentonExLight;
+}
+a, a:hover{
+  text-decoration: none;
+}
+b, strong{
+  font-weight: 300;
+}
+input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button{
+  padding: 10px 15px;
+  color:$white;
+  font-size: 10px;
+  @include BentonLight;
+  letter-spacing: 3px;
+  margin-top: 100px;
+  height: auto !important;
+}
+.wp-post-image{display:none !important;}
+
+@mixin cta {
+  padding: 10px 15px;
+  color: $white !important;
+  font-size: 10px;
+  @include BentonReg;
+  letter-spacing: 3px;
+  margin-top: 100px;
+}
+//Genericos
+
+.mt10{
+  margin-top: 10px;
+}
+.fright{
+  float: right;
+}
+.red{
+  background: $red;
+}
+#top-link{
+  display: none !important;
+}
+.btn-down{
+  display: block;
+  padding:10px;
+  width: 100px;
+}
+.w80{
+  float: left;
+  width: 80%;
+  box-sizing: border-box;
+}
+.w70{
+  float: left;
+  width: 70%;
+  box-sizing: border-box;
+}
+.w49{
+  float: left;
+  width: 49%;
+  box-sizing: border-box;
+}
+.w50{
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+.w40{
+  float: left;
+  width: 40%;
+  box-sizing: border-box;
+}
+.w30{
+  float: left;
+  width: 30%;
+  box-sizing: border-box;
+}
+.btn-gris{
+  background: #44494D;
+  @include cta;
+  margin: 35px 0 70px 0 !important;
+  display: inline-block;
+}
+
+//Botones
+.vc_btn3-color-danger{
+  background-color: $red !important;
+}
+
+//Menu
+.navbar{
+  float: right;
+  .nav{
+    li{
+      a{
+        @include BentonLight;
+        color: $boulder;
+        font-size: 12px;
+        text-transform: uppercase;
+        padding: 42px 25px;
+      }
+    }
+  }
+}
+.title-stage-home{
+  @include BentonExLight;
+}
+.header-right{
+  display: none !important;
+}
+.block-danilo{
+  margin-top: -29px !important;
+}
+
+//Tag servicios
+.block-tags{
+  .tags{
+    .tags-left{
+      width: 50%;
+      float: left;
+    }
+    .tag-servicio{
+      @include BentonMedium;
+      font-size: 12px;
+      color:$red;
+      padding: 10px 15px;
+      border: 2px solid $red;
+      margin: 10px 0;
+      float: left;
+      clear: both;
+    }
+  }
+}
+
+//Botones Blog
+.vc_btn3.vc_btn3-color-juicy-pink, .vc_btn3.vc_btn3-color-juicy-pink.vc_btn3-style-flat{
+  background: url('http://dev-danilo-design.pantheonsite.io/wp-content/uploads/2016/04/flecha.png') !important;
+  background-repeat: no-repeat !important;
+  color: #f4f4f4;
+}
+.vc_gitem-zone{
+  .vc_gitem_row{
+    height: 380px;
+  }
+  .vc_custom_heading{
+    h4{
+      font-size: 32px;
+      color: $red;
+      margin: 0;
+      @include BentonExLight;
+    }
+    p{
+      font-size: 16px;
+      color:$tundora;
+      @include BentonExLight;
+    }
+  }
+}
+
+//Listado blog
+.blog-post.blog-post-single .post-info{
+  display: none !important;
+  visibility: hidden;
+}
+
+//Blog Home
+.home{
+  .post-home .vc_custom_heading{
+    h4{
+      margin-top: 100px !important;
+    }
+  }
+  .vc_grid{
+    .vc_grid-item:nth-child(1){
+      border-right: 1px solid #ccc;
+      background: $alto !important;
+    }
+  }
+}
+
+
+//Formulario
+.formulario{
+  width: 100%;
+  overflow: hidden;
+  .columna{
+    padding: 10px;
+  }
+  p{
+    font-size: 16px;
+    color:$tundora;
+    @include BentonLight;
+  }
+  .wpcf7-submit{
+    background: $red !important;
+    border: none;
+    padding: 10px 25px !important;
+    color: $white !important;
+    font-size: 10px;
+    @include BentonReg;
+    margin: 10px 0;
+    &:hover{
+      border: none !important;
+    }
+  }
+  textarea:focus, input:focus{
+    border:$boulder;
+  }
+}
+
+//Bloque Servicios - Quienes
+.block-who-serv{
+  height: 640px;
+  .serv{
+    padding: 0 80px;
+    text-align: center;
+    position: relative;
+    top: 35%;
+    h2{
+      font-size: 48px;
+      color: $red;
+      @include BentonExLight;
+    }
+    p{
+      color: $white;
+      font-size: 20px;
+      @include BentonLight;
+    }
+    a{
+      margin: 0 auto !important;
+    }
+  }
+  .bbd{
+    @extend .serv;
+  }
+}
+.titulo-nosotros{
+  margin-top: -35px;
+}
+.titulo-quienes{
+  font-size: 24px;
+  color: $red !important;
+  @include BentonReg;
+  text-align: center;
+  font-weight: 500 !important;
+}
+
+
+//Filtros Portafolio
+
+.portfolio-filter{
+  .filter{
+    @include BentonConLight;
+    font-size: 16px;
+    color:$dusty-gray;
+  }
+  a:hover, a:active, .active{
+    border-bottom:1px solid $red !important;
+  }
+}
+.vc_grid-filter{
+  @extend .portfolio-filter;
+  .vc_grid-filter-item{
+    @include BentonConLight;
+    font-size: 16px;
+    color:$dusty-gray;
+    text-transform: uppercase;
+  }
+}
+.vc_grid-filter.vc_grid-filter-color-grey>.vc_grid-filter-item.vc_active{
+    border-bottom:1px solid $red !important;
+    background: none;
+}
+.vc_grid-filter.vc_grid-filter-default>.vc_grid-filter-item{
+  border-radius: 0 !important;
+}
+.vc_grid-filter.vc_grid-filter-color-grey>.vc_grid-filter-item:hover{
+  border-bottom:1px solid $red !important;
+  background: none;
+}
+
+
+//Portafolio
+.portfolio-columns-3 {
+  .portfolio-item-block{
+    width: 50% !important;
+    height: 290px;
+  }
+}
+.box-top{
+  position: relative;
+  background: $white;
+  padding: 40px 40px 0;
+  width: 100%;
+  margin: -60px auto 40px;
+}
+.page {
+  .portfolio-item-block {
+    .info{
+      bottom: 10px;
+      opacity: 0;
+      left: 0 !important;
+      .title{
+        @include BentonExLight;
+        font-size: 32px;
+        color:$white;
+        left: 0 !important;
+      }
+      .sub-title{
+        @include BentonExLight;
+        font-size: 18px;
+        color:$white;
+        left: 0 !important;
+        margin-left: 0 !important;
+        margin-bottom: 10px;
+      }
+    }
+
+    .portfolio-item-bg{
+      background: rgba(222, 2, 9, 0.80) !important;
+    }
+
+    &:hover{
+      .portfolio-item-image{
+        transform: scale(1.02) rotate(0);
+      }
+      .info{
+        opacity: 1;
+      }
+    }
+  }
+}
+
+//Detalle Portafolio (Proyecto)
+.single{
+  .content-block{
+    .portfolio-title-position-disable{
+      margin-top: -30px;
+    }
+  }
+  .portfolio-item-details{
+    .project-content{
+      .vc_gitem-zone{
+        .vc_gitem_row{
+          padding: 30px;
+          .vc_gitem-col {
+            position: relative;
+            top: 220px;
+            padding: 0;
+          }
+        }
+      }
+
+      .vc_gitem-animated-block{
+        display: none;
+      }
+    }
+  }
+  .container-fluid-footer{
+    margin-top: 0;
+  }
+}
+
+
+//Titulo de Sección
+.title-section{
+  margin: 65px 0 100px !important;
+  .title{
+    @include BentonLight;
+    font-size: 58px;
+    color:$red !important;
+  }
+  .subtitle{
+    @extend .title;
+    font-size: 36px;
+  }
+}
+
+//CTA
+
+//Redes
+.redes{
+  .icon{
+    font-size: 20px;
+    color:$silver;
+    content: "\f09a";
+    font-family: normal normal normal 14px/1 FontAwesome;
+    width: 32px;
+    margin-right: 10px;
+  }
+  .stButton{
+    .stLarge{
+      background-image: none !important;
+      position: absolute;
+      top: -20px;
+      left: -20px;
+    }
+  }
+}
+
+
+
+
+//Perfil
+.block-perfil{
+  height: 320px;
+  position: relative;
+  .name{
+    position: relative;
+    top: 280px;
+    h2{
+      font-size: 24px;
+      color:$white;
+      line-height: 1;
+      @include BentonExLight;
+      margin: 0;
+    }
+    p{
+      @include BentonConLight;
+      font-size: 18px;
+      color:$white;
+      line-height: 1;
+    }
+  }
+  .name-seo{
+    h2{
+      font-size: 28px;
+      color:$red;
+        @include BentonExLight;
+    }
+    h3{
+      font-size: 24px;
+      @include BentonConLight;
+    }
+    p{
+      font-size: 21px;
+      @include BentonExLight;
+    }
+  }
+}
+
+//Bloques
+.block{
+  .block-int{
+    .title-block{
+      padding: 25px;
+      border-left: 1px solid $mercury;
+      border-bottom: 1px solid $mercury;
+      width: 50%;
+      h3{
+        @include BentonReg;
+        color: $white;
+        font-size: 12px;
+        letter-spacing: 2px;
+      }
+    }
+    .subtitle-block{
+      padding: 25px;
+      border-left: 1px solid $mercury;
+      .subtitle{
+        font-size: 32px;
+        color: $white;
+        @include BentonExLight;
+      }
+      .text-red{
+        color: $red;
+        font-weight: 300;
+      }
+      .display-text{
+        font-size: 101px;
+        letter-spacing: -5px;
+        @include BentonExLight;
+        color:$white;
+        font-weight: 200 !important;
+        margin: 10px 0 115px -5px;
+        line-height: 96px;
+      }
+    }
+  }
+}
+
+//Eventos
+.event{
+  padding: 20px 0 100px;
+  margin-top: 40px;
+  height: 420px;
+  .block-int{
+    padding-left: 25px;
+    .title-block{
+      h3{
+        @include BentonLight;
+        font-size: 12px;
+        color:$tundora;
+        margin: 0 0 20px 0;
+        border-bottom: 7px solid $mercury;
+        height: 25px;
+        width: 80px;
+      }
+    }
+    .date-event {
+      .text-event{
+        width: 60%;
+        padding: 0 20px 0 0;
+        float: left;
+        box-sizing: border-box;
+      }
+      .photo-event{
+        width: 40% !important;
+        float: left;
+        box-sizing: border-box;
+      }
+      .day{
+        @include BentonExLight;
+        font-size: 101px;
+        letter-spacing: -2px;
+        color:$dusty-gray;
+        margin: 0;
+      }
+      .title-event{
+        color:$red;
+        margin: 0px 0 35px;
+        font-size: 28px;
+        @include BentonExLight;
+      }
+      p{
+        margin: 0 0 15px 0;
+      }
+    }
+  }
+}
+
+
+//Post-Home
+.vc_gitem_row .vc_gitem-col{
+    padding: 80px 30px 0px 30px;
+}
+.post-home{
+  .vc_gitem-animated-block{
+    display: none;
+  }
+  .vc_custom_heading{
+    h4{
+      font-size: 32px;
+      color:$red;
+      @include BentonExLight;
+    }
+    p{
+      color:$tundora;
+      font-size: 16px;
+      @include BentonExLight;
+    }
+  }
+  .vc_btn3-container{
+    a{
+      background: url('http://dev-danilo-design.pantheonsite.io/wp-content/uploads/2016/04/flecha.png') !important;
+      background-repeat: no-repeat !important;
+      color: #f9f9f9;
+      margin-bottom: 0 !important;
+    }
+  }
+}
+
+//News Letter
+.mgt-signup-block {
+  .mgt-signup-block-form{
+    display: block;
+    padding: 0 !important;
+    margin-top: 30px;
+    input.email{
+      width: 40% !important;
+      float: left;
+    }
+    input.mgt-button{
+      clear: both;
+      float: left;
+      margin-top: 30px;
+      background: $red !important;
+      @include BentonReg;
+      color: $white;
+      font-size: 10px;
+    }
+  }
+  .mgt-signup-block-header{
+    display: block;
+    h5{
+      font-size: 36px;
+      color:$red !important;
+      text-align: left;
+      @include BentonExLight;
+    }
+  }
+}
+
+//Servicios
+.services{
+  .block-services{
+    .block-int{
+      h3{
+        @include BentonMedium;
+          font-size: 24px;
+          color:$red;
+          font-weight: 500 !important;
+        }
+       p{
+         @include BentonExLight;
+         color:$dusty-gray;
+         font-size: 21px;
+       }
+     }
+     .block-int-serv{
+       margin-top: 50px;
+       ul{
+         float: left;
+         width: 50%;
+         list-style: none;
+         margin: 0;
+         padding: 0;
+         li{
+           @include BentonExLight;
+           color:$tundora;
+           font-size: 24px;
+           margin-bottom: 40px;
+         }
+       }
+     }
+   }
+}
+
+
+ //Interior Servicios
+ .block-int-services{
+   @extend .block-services;
+     .lines{
+       background: url('http://dev-danilo-design.pantheonsite.io/wp-content/uploads/2016/05/double-line.png');
+       background-position: left bottom;
+       background-repeat: no-repeat;
+       height: 57px;
+       h3{
+         @include BentonMedium;
+           font-size: 24px;
+           color:$red;
+           font-weight: 500 !important;
+         }
+     }
+     .tactical{
+       margin-top: 60px;
+       .row-serv{
+         margin-bottom: 60px;
+         padding-left: 20px;
+         h2{
+           color:$tundora;
+           @include BentonExLight;
+           font-size: 24px;
+           line-height: 1.3;
+         }
+         p{
+           color:$dusty-gray;
+           @include BentonExLight;
+           font-size: 18px;
+           padding-left: 20px;
+         }
+       }
+     }
+     .tactical-btn{
+       @extend .tactical;
+       .row-serv{
+         margin-bottom: 30px !important;
+       }
+     }
+ }
+ .ofertas-tacticas{
+   margin-top: 100px;
+   padding-left: 10px;
+ }
+ .space-services{
+   height: 58px;
+   width: auto;
+   display: block;
+ }
+ .line-left{
+   border-left: 1px solid $mercury;
+ }
+ .line-top{
+   border-top: 1px solid $white;
+   width: 120px;
+ }
+ .line-right{
+   border-right: 1px solid $mercury;
+ }
+ .servicios{
+   padding-left: 10px;
+ }
+ .center{
+   margin: 0 auto;
+   text-align: center;
+ }
+
+//Footer
+footer{
+  margin-top: -35px;
+  padding: 10px 0 25px;
+  @include BentonExLight;
+  a{
+    color: $boulder;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+  .footer-top{
+    margin-bottom: 20px !important;
+
+    .footer-copyright{
+      @include BentonLight;
+      font-size: 14px !important;
+      color: $boulder;
+
+      .contact{
+        margin-top: 30px;
+        .datos{
+          margin-bottom: 20px;
+        }
+        i{
+          margin-right: 20px;
+        }
+        a{
+          margin-right: 20px;
+          color:$boulder;
+        }
+      }
+    }
+
+    .footer-follow{
+      .menu-footer{
+        margin-top: 99px;
+        .block-item{
+          width: 50%;
+          float: left;
+          .item{
+            font-size: 14px;
+            color:$boulder;
+            margin-bottom: 20px;
+            a{
+              text-decoration: none;
+              &:hover{
+                text-decoration: none;
+                border-bottom: 1px solid $red;
+              }
+            }
+          }
+        }
+      }
+    }
+    .footer-contact{
+      .cta{
+        padding: 10px 15px;
+        color: $white !important;
+        font-size: 10px;
+        @include BentonReg;
+        letter-spacing: 3px;
+        margin-top: 100px;
+      }
+    }
+
+  }
+  .footer-bottom{
+    padding: 25px 0;
+    border-top: 1px solid $mercury;
+    color:$mercury;
+      span{
+        font-size: 12px;
+        color:$dusty-gray;
+        margin-right: 20px;
+      }
+      a{
+        font-size: 12px;
+        color:$dusty-gray;
+        margin-left: 20px;
+      }
+  }
+}
+
+
+
+//CTA Servicios
+.block-cta-serv{
+  text-align: center;
+  height: 550px;
+  width: 100%;
+  .title-cta{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 35%;
+    h1{
+      @include BentonExLight;
+      font-size: 58px;
+      color: $red !important;
+      position: relative;
+    }
+  }
+  .slogan-cta{
+    @extend .title-cta;
+    width: 50%;
+    p{
+      @include BentonExLight;
+      font-size: 24px;
+      color: $white !important;
+      line-height: 30px;
+      margin-top: 18px;
+    }
+  }
+
+}
+.arrow{
+  width: 100px;
+  height: 30px;
+  display: block;
+  cursor: pointer;
+}
+.btn-arrow{
+  margin-top: 20px;
+  @include BentonExLight;
+  font-size: 16px;
+  color: $tundora;
+  &:after{
+    content: url('http://dev-danilo-design.pantheonsite.io/wp-content/uploads/2016/04/flecha.png');
+    margin-left: 10px;
+  }
+}
+
+.oficinas{
+  .city-office{
+    position: relative;
+    top: 210px;
+    left: 10px;
+    h2{
+      @include BentonExLight;
+      font-size: 36px;
+      color:$white;
+    }
+  }
+}
+.data-office{
+  h2{
+    @include BentonExLight;
+    color:$tundora !important;
+    font-size: 18px;
+    margin: 0;
+    line-height: 1.3;
+  }
+  .txt-red{
+    color:$red;
+  }
+}
+
+//Quote
+.quote-block{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  .comilla{
+    width: 5%;
+    float: left;
+    img{
+      float: right;
+      padding-right: 20px;
+    }
+  }
+  .quote{
+    width: 95%;
+    float: left;
+    .autor-quote{
+        font-weight:100;
+        color:#FFF;
+        font-size:18px;
+        line-height:26px;
+    }
+    .autor{
+      padding-top: 35px;
+      margin: 35px 0;
+    }
+    .cta-quote{
+      float: right;
+    }
+  }
+}
+.space-quote{
+  margin-left: 5%;
+}
+
+
+
+//Andrea CSS
+
+.titulo-portafolio{
+    color:#EC1D24;
+    line-height:68px;
+    font-size:56px;
+    font-family:Benton Sans;
+}
+
+.abstract{
+    font-size:36px;
+    color:#4A4A4A;
+    line-height:46px;
+    font-weight: 400;
+    font-family:Benton Sans;
+    letter-spacing: -1px;
+}
+
+.autor-rojo{
+    font-weight:100;
+    color:#EC1D24;
+    font-size:36px;
+    font-family:Benton Sans;
+}
+
+.cuerpo-texto{
+    font-size:21px;
+    font-weight:200;
+    line-height:30px;
+    font-family:Benton Sans;
+}
+
+.balazo{
+  @include BentonConLight;
+    font-size:84px;
+    line-height:92px;
+    font-weight:50px;
+    color:#EC1D24;
+    text-align:justify;
+}
+
+.balazo-negro{
+    font-family: "BentonSansComp" !important;
+    font-size:84px;
+    line-height:92px;
+    font-weight:100;
+    color:#4A4A4A;
+    text-align:justify;
+}
+
+.quote-cliente{
+    font-weight:100;
+    color:#FFF;
+    font-size:32px;
+    line-height:38px;
+}
+
+.action-quote{
+    font-weight:400;
+    color:#FFF;
+    font-size:18px;
+    line-height:18px;
+    letter-spacing:2.32px;
+}
+
+.action-quote-rojo{
+    font-weight:400;
+    color:#EC1D24;
+    font-size:18px;
+    line-height:18px;
+    letter-spacing:2.32px;
+}
+
+.sector-servicios{
+    font-weight:400;
+    font-size:16px;
+    color:#848484;
+}
+
+.autor-arriba{
+    font-weight:100;
+    color:#EC1D24;
+    font-size:24px;
+    font-family:Benton Sans;
+}
+
+.seccion{
+    font-weight:100;
+    color:#4a4a4a;
+    font-size:14px;
+    font-family:Benton Sans;
+}
+
+.autor-quote-grande{
+    font-family:Benton Sans;
+    font-size:18px;
+    color:#4a4a4a;
+    line-height:26px;
+}
+
+.quote-lateral{
+    font-family:"BentonSansComp" !important;
+    font-weight:100;
+    color:#EC1D24;
+    font-size:24px;
+    letter-spacing:2.32px;
+}
+
+.quote-lateral-black{
+    font-family:"BentonSansComp" !important;
+    font-weight:100;
+    color:#4A4A4A;
+    font-size:24px;
+    letter-spacing:2.32px;
+}
+
+.quote-autor{
+    font-family:"BentonSans";
+    font-weight:200;
+    color:#4A4A4A;
+    font-size:14px;
+}
+
+.quote-autor-puesto{
+    font-family:"BentonSans";
+    font-style:italic;
+    font-weight:100;
+    color:#9B9B9B;
+    font-size:14px;
+}
+
+.piedefoto{
+    font-family:"BentonSansComp";
+    font-weight:200;
+    color:#616161;
+    font-size:28px;
+    line-height:33px;
+}
+
+.piedefotoautor{
+    font-family:"BentonSansComp";
+    font-weight:400;
+    color:#616161;
+    font-size:28px;
+    line-height:33px;
+}
+
+.piedefotolateral{
+    font-family:"BentonSansComp";
+    font-weight:200;
+    color:#616161;
+    font-size:20px;
+    line-height:25px;
+}
+
+.piedefotoautorlateral{
+    font-family:"BentonSansComp";
+    font-weight:400;
+    color:#616161;
+    font-size:20px;
+    line-height:25px;
+}

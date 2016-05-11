@@ -1,0 +1,41 @@
+//Media Queries
+$screen-lg-min: 1200px;
+$screen-md-min: 992px;
+$screen-sm-min: 768px;
+
+/* Extra small devices (phones, less than 768px) */
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width:320px) and (max-width:768px) {
+
+  .titulo-portafolio{
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .box-top{
+    padding: 40px 0px 0;
+  }
+  .balazo{
+      font-size: 30px;
+      line-height:36px;
+      text-align:left;
+  }
+  .balazo-negro{
+    font-size:34px;
+    line-height:42px;
+    text-align:left;
+  }
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+
+
+}

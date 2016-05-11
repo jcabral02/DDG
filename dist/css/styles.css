@@ -1,0 +1,920 @@
+body {
+  font-family: "Benton Sans" !important;
+  font-style: normal;
+  font-weight: 200 !important;
+  line-height: 1.2;
+  color: #4A4A4A; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 200 !important; }
+
+a, a:hover {
+  text-decoration: none; }
+
+b, strong {
+  font-weight: 300; }
+
+input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button {
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 10px;
+  font-family: "Benton Sans" !important;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 3px;
+  margin-top: 100px;
+  height: auto !important; }
+
+.wp-post-image {
+  display: none !important; }
+
+.mt10 {
+  margin-top: 10px; }
+
+.fright {
+  float: right; }
+
+.red {
+  background: #EC1D24; }
+
+#top-link {
+  display: none !important; }
+
+.btn-down {
+  display: block;
+  padding: 10px;
+  width: 100px; }
+
+.w80 {
+  float: left;
+  width: 80%;
+  box-sizing: border-box; }
+
+.w70 {
+  float: left;
+  width: 70%;
+  box-sizing: border-box; }
+
+.w49 {
+  float: left;
+  width: 49%;
+  box-sizing: border-box; }
+
+.w50 {
+  float: left;
+  width: 50%;
+  box-sizing: border-box; }
+
+.w40 {
+  float: left;
+  width: 40%;
+  box-sizing: border-box; }
+
+.w30 {
+  float: left;
+  width: 30%;
+  box-sizing: border-box; }
+
+.btn-gris {
+  background: #44494D;
+  padding: 10px 15px;
+  color: #fff !important;
+  font-size: 10px;
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin-top: 100px;
+  margin: 35px 0 70px 0 !important;
+  display: inline-block; }
+
+.vc_btn3-color-danger {
+  background-color: #EC1D24 !important; }
+
+.navbar {
+  float: right; }
+  .navbar .nav li a {
+    font-family: "Benton Sans" !important;
+    font-style: normal;
+    font-weight: 300;
+    color: #757575;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 42px 25px; }
+
+.title-stage-home {
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 200 !important; }
+
+.header-right {
+  display: none !important; }
+
+.block-danilo {
+  margin-top: -29px !important; }
+
+.block-tags .tags .tags-left {
+  width: 50%;
+  float: left; }
+
+.block-tags .tags .tag-servicio {
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #EC1D24;
+  padding: 10px 15px;
+  border: 2px solid #EC1D24;
+  margin: 10px 0;
+  float: left;
+  clear: both; }
+
+.vc_btn3.vc_btn3-color-juicy-pink, .vc_btn3.vc_btn3-color-juicy-pink.vc_btn3-style-flat {
+  background: url("http://dev-danilo-design.pantheonsite.io/wp-content/uploads/2016/04/flecha.png") !important;
+  background-repeat: no-repeat !important;
+  color: #f4f4f4; }
+
+.vc_gitem-zone .vc_gitem_row {
+  height: 380px; }
+
+.vc_gitem-zone .vc_custom_heading h4 {
+  font-size: 32px;
+  color: #EC1D24;
+  margin: 0;
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 200 !important; }
+
+.vc_gitem-zone .vc_custom_heading p {
+  font-size: 16px;
+  color: #4A4A4A;
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 200 !important; }
+
+.blog-post.blog-post-single .post-info {
+  display: none !important;
+  visibility: hidden; }
+
+.home .post-home .vc_custom_heading h4 {
+  margin-top: 100px !important; }
+
+.home .vc_grid .vc_grid-item:nth-child(1) {
+  border-right: 1px solid #ccc;
+  background: #DBDBDB !important; }
+
+.formulario {
+  width: 100%;
+  overflow: hidden; }
+  .formulario .columna {
+    padding: 10px; }
+  .formulario p {
+    font-size: 16px;
+    color: #4A4A4A;
+    font-family: "Benton Sans" !important;
+    font-style: normal;
+    font-weight: 300; }
+  .formulario .wpcf7-submit {
+    background: #EC1D24 !important;
+    border: none;
+    padding: 10px 25px !important;
+    color: #fff !important;
+    font-size: 10px;
+    font-family: "Benton Sans";
+    font-style: normal;
+    font-weight: 400;
+    margin: 10px 0; }
+    .formulario .wpcf7-submit:hover {
+      border: none !important; }
+  .formulario textarea:focus, .formulario input:focus {
+    border: #757575; }
+
+.block-who-serv {
+  height: 640px; }
+  .block-who-serv .serv, .block-who-serv .bbd {
+    padding: 0 80px;
+    text-align: center;
+    position: relative;
+    top: 35%; }
+    .block-who-serv .serv h2, .block-who-serv .bbd h2 {
+      font-size: 48px;
+      color: #EC1D24;
+      font-family: "Benton Sans";
+      font-style: normal;
+      font-weight: 200 !important; }
+    .block-who-serv .serv p, .block-who-serv .bbd p {
+      color: #fff;
+      font-size: 20px;
+      font-family: "Benton Sans" !important;
+      font-style: normal;
+      font-weight: 300; }
+    .block-who-serv .serv a, .block-who-serv .bbd a {
+      margin: 0 auto !important; }
+
+.titulo-nosotros {
+  margin-top: -35px; }
+
+.titulo-quienes {
+  font-size: 24px;
+  color: #EC1D24 !important;
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  font-weight: 500 !important; }
+
+.portfolio-filter .filter, .vc_grid-filter .filter {
+  font-family: "Benton Sans Cond";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #9B9B9B; }
+
+.portfolio-filter a:hover, .vc_grid-filter a:hover, .portfolio-filter a:active, .vc_grid-filter a:active, .portfolio-filter .active, .vc_grid-filter .active {
+  border-bottom: 1px solid #EC1D24 !important; }
+
+.vc_grid-filter .vc_grid-filter-item {
+  font-family: "Benton Sans Cond";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #9B9B9B;
+  text-transform: uppercase; }
+
+.vc_grid-filter.vc_grid-filter-color-grey > .vc_grid-filter-item.vc_active {
+  border-bottom: 1px solid #EC1D24 !important;
+  background: none; }
+
+.vc_grid-filter.vc_grid-filter-default > .vc_grid-filter-item {
+  border-radius: 0 !important; }
+
+.vc_grid-filter.vc_grid-filter-color-grey > .vc_grid-filter-item:hover {
+  border-bottom: 1px solid #EC1D24 !important;
+  background: none; }
+
+.portfolio-columns-3 .portfolio-item-block {
+  width: 50% !important;
+  height: 290px; }
+
+.box-top {
+  position: relative;
+  background: #fff;
+  padding: 40px 40px 0;
+  width: 100%;
+  margin: -60px auto 40px; }
+
+.page .portfolio-item-block .info {
+  bottom: 10px;
+  opacity: 0;
+  left: 0 !important; }
+  .page .portfolio-item-block .info .title, .page .portfolio-item-block .info .title-section .subtitle, .title-section .page .portfolio-item-block .info .subtitle {
+    font-family: "Benton Sans";
+    font-style: normal;
+    font-weight: 200 !important;
+    font-size: 32px;
+    color: #fff;
+    left: 0 !important; }
+  .page .portfolio-item-block .info .sub-title {
+    font-family: "Benton Sans";
+    font-style: normal;
+    font-weight: 200 !important;
+    font-size: 18px;
+    color: #fff;
+    left: 0 !important;
+    margin-left: 0 !important;
+    margin-bottom: 10px; }
+
+.page .portfolio-item-block .portfolio-item-bg {
+  background: rgba(222, 2, 9, 0.8) !important; }
+
+.page .portfolio-item-block:hover .portfolio-item-image {
+  transform: scale(1.02) rotate(0); }
+
+.page .portfolio-item-block:hover .info {
+  opacity: 1; }
+
+.single .content-block .portfolio-title-position-disable {
+  margin-top: -30px; }
+
+.single .portfolio-item-details .project-content .vc_gitem-zone .vc_gitem_row {
+  padding: 30px; }
+  .single .portfolio-item-details .project-content .vc_gitem-zone .vc_gitem_row .vc_gitem-col {
+    position: relative;
+    top: 220px;
+    padding: 0; }
+
+.single .portfolio-item-details .project-content .vc_gitem-animated-block {
+  display: none; }
+
+.single .container-fluid-footer {
+  margin-top: 0; }
+
+.title-section {
+  margin: 65px 0 100px !important; }
+  .title-section .title, .title-section .subtitle {
+    font-family: "Benton Sans" !important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 58px;
+    color: #EC1D24 !important; }
+  .title-section .subtitle {
+    font-size: 36px; }
+
+.redes .icon {
+  font-size: 20px;
+  color: #BABABA;
+  content: "\f09a";
+  font-family: normal normal normal 14px/1 FontAwesome;
+  width: 32px;
+  margin-right: 10px; }
+
+.redes .stButton .stLarge {
+  background-image: none !important;
+  position: absolute;
+  top: -20px;
+  left: -20px; }
+
+.block-perfil {
+  height: 320px;
+  position: relative; }
+  .block-perfil .name {
+    position: relative;
+    top: 280px; }
+    .block-perfil .name h2 {
+      font-size: 24px;
+      color: #fff;
+      line-height: 1;
+      font-family: "Benton Sans";
+      font-style: normal;
+      font-weight: 200 !important;
+      margin: 0; }
+    .block-perfil .name p {
+      font-family: "Benton Sans Cond";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      color: #fff;
+      line-height: 1; }
+  .block-perfil .name-seo h2 {
+    font-size: 28px;
+    color: #EC1D24;
+    font-family: "Benton Sans";
+    font-style: normal;
+    font-weight: 200 !important; }
+  .block-perfil .name-seo h3 {
+    font-size: 24px;
+    font-family: "Benton Sans Cond";
+    font-style: normal;
+    font-weight: 300; }
+  .block-perfil .name-seo p {
+    font-size: 21px;
+    font-family: "Benton Sans";
+    font-style: normal;
+    font-weight: 200 !important; }
+
+.block .block-int .title-block {
+  padding: 25px;
+  border-left: 1px solid #E4E4E4;
+  border-bottom: 1px solid #E4E4E4;
+  width: 50%; }
+  .block .block-int .title-block h3 {
+    font-family: "Benton Sans";
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 2px; }
+
+.block .block-int .subtitle-block {
+  padding: 25px;
+  border-left: 1px solid #E4E4E4; }
+  .block .block-int .subtitle-block .subtitle {
+    font-size: 32px;
+    color: #fff;
+    font-family: "Benton Sans";
+    font-style: normal;
+    font-weight: 200 !important; }
+  .block .block-int .subtitle-block .text-red {
+    color: #EC1D24;
+    font-weight: 300; }
+  .block .block-int .subtitle-block .display-text {
+    font-size: 101px;
+    letter-spacing: -5px;
+    font-family: "Benton Sans";
+    font-style: normal;
+    font-weight: 200 !important;
+    color: #fff;
+    font-weight: 200 !important;
+    margin: 10px 0 115px -5px;
+    line-height: 96px; }
+
+.event {
+  padding: 20px 0 100px;
+  margin-top: 40px;
+  height: 420px; }
+  .event .block-int {
+    padding-left: 25px; }
+    .event .block-int .title-block h3 {
+      font-family: "Benton Sans" !important;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 12px;
+      color: #4A4A4A;
+      margin: 0 0 20px 0;
+      border-bottom: 7px solid #E4E4E4;
+      height: 25px;
+      width: 80px; }
+    .event .block-int .date-event .text-event {
+      width: 60%;
+      padding: 0 20px 0 0;
+      float: left;
+      box-sizing: border-box; }
+    .event .block-int .date-event .photo-event {
+      width: 40% !important;
+      float: left;
+      box-sizing: border-box; }
+    .event .block-int .date-event .day {
+      font-family: "Benton Sans";
+      font-style: normal;
+      font-weight: 200 !important;
+      font-size: 101px;
+      letter-spacing: -2px;
+      color: #9B9B9B;
+      margin: 0; }
+    .event .block-int .date-event .title-event {
+      color: #EC1D24;
+      margin: 0px 0 35px;
+      font-size: 28px;
+      font-family: "Benton Sans";
+      font-style: normal;
+      font-weight: 200 !important; }
+    .event .block-int .date-event p {
+      margin: 0 0 15px 0; }
+
+.vc_gitem_row .vc_gitem-col {
+  padding: 80px 30px 0px 30px; }
+
+.post-home .vc_gitem-animated-block {
+  display: none; }
+
+.post-home .vc_custom_heading h4 {
+  font-size: 32px;
+  color: #EC1D24;
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 200 !important; }
+
+.post-home .vc_custom_heading p {
+  color: #4A4A4A;
+  font-size: 16px;
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 200 !important; }
+
+.post-home .vc_btn3-container a {
+  background: url("http://dev-danilo-design.pantheonsite.io/wp-content/uploads/2016/04/flecha.png") !important;
+  background-repeat: no-repeat !important;
+  color: #f9f9f9;
+  margin-bottom: 0 !important; }
+
+.mgt-signup-block .mgt-signup-block-form {
+  display: block;
+  padding: 0 !important;
+  margin-top: 30px; }
+  .mgt-signup-block .mgt-signup-block-form input.email {
+    width: 40% !important;
+    float: left; }
+  .mgt-signup-block .mgt-signup-block-form input.mgt-button {
+    clear: both;
+    float: left;
+    margin-top: 30px;
+    background: #EC1D24 !important;
+    font-family: "Benton Sans";
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    font-size: 10px; }
+
+.mgt-signup-block .mgt-signup-block-header {
+  display: block; }
+  .mgt-signup-block .mgt-signup-block-header h5 {
+    font-size: 36px;
+    color: #EC1D24 !important;
+    text-align: left;
+    font-family: "Benton Sans";
+    font-style: normal;
+    font-weight: 200 !important; }
+
+.services .block-services .block-int h3, .services .block-int-services .block-int h3 {
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #EC1D24;
+  font-weight: 500 !important; }
+
+.services .block-services .block-int p, .services .block-int-services .block-int p {
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 200 !important;
+  color: #9B9B9B;
+  font-size: 21px; }
+
+.services .block-services .block-int-serv, .services .block-int-services .block-int-serv {
+  margin-top: 50px; }
+  .services .block-services .block-int-serv ul, .services .block-int-services .block-int-serv ul {
+    float: left;
+    width: 50%;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .services .block-services .block-int-serv ul li, .services .block-int-services .block-int-serv ul li {
+      font-family: "Benton Sans";
+      font-style: normal;
+      font-weight: 200 !important;
+      color: #4A4A4A;
+      font-size: 24px;
+      margin-bottom: 40px; }
+
+.block-int-services .lines {
+  background: url("http://dev-danilo-design.pantheonsite.io/wp-content/uploads/2016/05/double-line.png");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  height: 57px; }
+  .block-int-services .lines h3 {
+    font-family: "Benton Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #EC1D24;
+    font-weight: 500 !important; }
+
+.block-int-services .tactical, .block-int-services .tactical-btn {
+  margin-top: 60px; }
+  .block-int-services .tactical .row-serv, .block-int-services .tactical-btn .row-serv {
+    margin-bottom: 60px;
+    padding-left: 20px; }
+    .block-int-services .tactical .row-serv h2, .block-int-services .tactical-btn .row-serv h2 {
+      color: #4A4A4A;
+      font-family: "Benton Sans";
+      font-style: normal;
+      font-weight: 200 !important;
+      font-size: 24px;
+      line-height: 1.3; }
+    .block-int-services .tactical .row-serv p, .block-int-services .tactical-btn .row-serv p {
+      color: #9B9B9B;
+      font-family: "Benton Sans";
+      font-style: normal;
+      font-weight: 200 !important;
+      font-size: 18px;
+      padding-left: 20px; }
+
+.block-int-services .tactical-btn .row-serv {
+  margin-bottom: 30px !important; }
+
+.ofertas-tacticas {
+  margin-top: 100px;
+  padding-left: 10px; }
+
+.space-services {
+  height: 58px;
+  width: auto;
+  display: block; }
+
+.line-left {
+  border-left: 1px solid #E4E4E4; }
+
+.line-top {
+  border-top: 1px solid #fff;
+  width: 120px; }
+
+.line-right {
+  border-right: 1px solid #E4E4E4; }
+
+.servicios {
+  padding-left: 10px; }
+
+.center {
+  margin: 0 auto;
+  text-align: center; }
+
+footer {
+  margin-top: -35px;
+  padding: 10px 0 25px;
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 200 !important; }
+  footer a {
+    color: #757575; }
+    footer a:hover {
+      text-decoration: none; }
+  footer .footer-top {
+    margin-bottom: 20px !important; }
+    footer .footer-top .footer-copyright {
+      font-family: "Benton Sans" !important;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px !important;
+      color: #757575; }
+      footer .footer-top .footer-copyright .contact {
+        margin-top: 30px; }
+        footer .footer-top .footer-copyright .contact .datos {
+          margin-bottom: 20px; }
+        footer .footer-top .footer-copyright .contact i {
+          margin-right: 20px; }
+        footer .footer-top .footer-copyright .contact a {
+          margin-right: 20px;
+          color: #757575; }
+    footer .footer-top .footer-follow .menu-footer {
+      margin-top: 99px; }
+      footer .footer-top .footer-follow .menu-footer .block-item {
+        width: 50%;
+        float: left; }
+        footer .footer-top .footer-follow .menu-footer .block-item .item {
+          font-size: 14px;
+          color: #757575;
+          margin-bottom: 20px; }
+          footer .footer-top .footer-follow .menu-footer .block-item .item a {
+            text-decoration: none; }
+            footer .footer-top .footer-follow .menu-footer .block-item .item a:hover {
+              text-decoration: none;
+              border-bottom: 1px solid #EC1D24; }
+    footer .footer-top .footer-contact .cta {
+      padding: 10px 15px;
+      color: #fff !important;
+      font-size: 10px;
+      font-family: "Benton Sans";
+      font-style: normal;
+      font-weight: 400;
+      letter-spacing: 3px;
+      margin-top: 100px; }
+  footer .footer-bottom {
+    padding: 25px 0;
+    border-top: 1px solid #E4E4E4;
+    color: #E4E4E4; }
+    footer .footer-bottom span {
+      font-size: 12px;
+      color: #9B9B9B;
+      margin-right: 20px; }
+    footer .footer-bottom a {
+      font-size: 12px;
+      color: #9B9B9B;
+      margin-left: 20px; }
+
+.block-cta-serv {
+  text-align: center;
+  height: 550px;
+  width: 100%; }
+  .block-cta-serv .title-cta, .block-cta-serv .slogan-cta {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 35%; }
+    .block-cta-serv .title-cta h1, .block-cta-serv .slogan-cta h1 {
+      font-family: "Benton Sans";
+      font-style: normal;
+      font-weight: 200 !important;
+      font-size: 58px;
+      color: #EC1D24 !important;
+      position: relative; }
+  .block-cta-serv .slogan-cta {
+    width: 50%; }
+    .block-cta-serv .slogan-cta p {
+      font-family: "Benton Sans";
+      font-style: normal;
+      font-weight: 200 !important;
+      font-size: 24px;
+      color: #fff !important;
+      line-height: 30px;
+      margin-top: 18px; }
+
+.arrow {
+  width: 100px;
+  height: 30px;
+  display: block;
+  cursor: pointer; }
+
+.btn-arrow {
+  margin-top: 20px;
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 200 !important;
+  font-size: 16px;
+  color: #4A4A4A; }
+  .btn-arrow:after {
+    content: url("http://dev-danilo-design.pantheonsite.io/wp-content/uploads/2016/04/flecha.png");
+    margin-left: 10px; }
+
+.oficinas .city-office {
+  position: relative;
+  top: 210px;
+  left: 10px; }
+  .oficinas .city-office h2 {
+    font-family: "Benton Sans";
+    font-style: normal;
+    font-weight: 200 !important;
+    font-size: 36px;
+    color: #fff; }
+
+.data-office h2 {
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 200 !important;
+  color: #4A4A4A !important;
+  font-size: 18px;
+  margin: 0;
+  line-height: 1.3; }
+
+.data-office .txt-red {
+  color: #EC1D24; }
+
+.quote-block {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden; }
+  .quote-block .comilla {
+    width: 5%;
+    float: left; }
+    .quote-block .comilla img {
+      float: right;
+      padding-right: 20px; }
+  .quote-block .quote {
+    width: 95%;
+    float: left; }
+    .quote-block .quote .autor-quote {
+      font-weight: 100;
+      color: #FFF;
+      font-size: 18px;
+      line-height: 26px; }
+    .quote-block .quote .autor {
+      padding-top: 35px;
+      margin: 35px 0; }
+    .quote-block .quote .cta-quote {
+      float: right; }
+
+.space-quote {
+  margin-left: 5%; }
+
+.titulo-portafolio {
+  color: #EC1D24;
+  line-height: 68px;
+  font-size: 56px;
+  font-family: Benton Sans; }
+
+.abstract {
+  font-size: 36px;
+  color: #4A4A4A;
+  line-height: 46px;
+  font-weight: 400;
+  font-family: Benton Sans;
+  letter-spacing: -1px; }
+
+.autor-rojo {
+  font-weight: 100;
+  color: #EC1D24;
+  font-size: 36px;
+  font-family: Benton Sans; }
+
+.cuerpo-texto {
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 30px;
+  font-family: Benton Sans; }
+
+.balazo {
+  font-family: "Benton Sans Cond";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 84px;
+  line-height: 92px;
+  font-weight: 50px;
+  color: #EC1D24;
+  text-align: justify; }
+
+.balazo-negro {
+  font-family: "BentonSansComp" !important;
+  font-size: 84px;
+  line-height: 92px;
+  font-weight: 100;
+  color: #4A4A4A;
+  text-align: justify; }
+
+.quote-cliente {
+  font-weight: 100;
+  color: #FFF;
+  font-size: 32px;
+  line-height: 38px; }
+
+.action-quote {
+  font-weight: 400;
+  color: #FFF;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 2.32px; }
+
+.action-quote-rojo {
+  font-weight: 400;
+  color: #EC1D24;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 2.32px; }
+
+.sector-servicios {
+  font-weight: 400;
+  font-size: 16px;
+  color: #848484; }
+
+.autor-arriba {
+  font-weight: 100;
+  color: #EC1D24;
+  font-size: 24px;
+  font-family: Benton Sans; }
+
+.seccion {
+  font-weight: 100;
+  color: #4a4a4a;
+  font-size: 14px;
+  font-family: Benton Sans; }
+
+.autor-quote-grande {
+  font-family: Benton Sans;
+  font-size: 18px;
+  color: #4a4a4a;
+  line-height: 26px; }
+
+.quote-lateral {
+  font-family: "BentonSansComp" !important;
+  font-weight: 100;
+  color: #EC1D24;
+  font-size: 24px;
+  letter-spacing: 2.32px; }
+
+.quote-lateral-black {
+  font-family: "BentonSansComp" !important;
+  font-weight: 100;
+  color: #4A4A4A;
+  font-size: 24px;
+  letter-spacing: 2.32px; }
+
+.quote-autor {
+  font-family: "BentonSans";
+  font-weight: 200;
+  color: #4A4A4A;
+  font-size: 14px; }
+
+.quote-autor-puesto {
+  font-family: "BentonSans";
+  font-style: italic;
+  font-weight: 100;
+  color: #9B9B9B;
+  font-size: 14px; }
+
+.piedefoto {
+  font-family: "BentonSansComp";
+  font-weight: 200;
+  color: #616161;
+  font-size: 28px;
+  line-height: 33px; }
+
+.piedefotoautor {
+  font-family: "BentonSansComp";
+  font-weight: 400;
+  color: #616161;
+  font-size: 28px;
+  line-height: 33px; }
+
+.piedefotolateral {
+  font-family: "BentonSansComp";
+  font-weight: 200;
+  color: #616161;
+  font-size: 20px;
+  line-height: 25px; }
+
+.piedefotoautorlateral {
+  font-family: "BentonSansComp";
+  font-weight: 400;
+  color: #616161;
+  font-size: 20px;
+  line-height: 25px; }
+
+/* Extra small devices (phones, less than 768px) */
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .titulo-portafolio {
+    font-size: 36px;
+    line-height: 36px; }
+  .box-top {
+    padding: 40px 0px 0; }
+  .balazo {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: left; }
+  .balazo-negro {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: left; } }
+
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
