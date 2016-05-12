@@ -342,7 +342,7 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button{
 //Detalle Portafolio (Proyecto)
 .single{
   .content-block{
-    .portfolio-title-position-disable{
+    .portfolio-title-position-disable, .blog-post-single{
       margin-top: -30px;
     }
   }
@@ -626,7 +626,7 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button{
          li{
            @include BentonExLight;
            color:$tundora;
-           font-size: 24px;
+           font-size: 20px;
            margin-bottom: 40px;
          }
        }
