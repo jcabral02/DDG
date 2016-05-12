@@ -1203,7 +1203,12 @@ footer{
 /* CSS RAMIRO
 ========================================================= */
 
-// cargar mas
+.single-post{
+  .blog-post.blog-post-single{
+    margin-bottom: 0;
+  }
+}
+
 .vc_btn3-container.vc_btn3-center .vc_btn3-block.vc_btn3-size-md{
   width: 200px;
   margin: 0 auto;
