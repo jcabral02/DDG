@@ -651,7 +651,7 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button{
     .bottom-info{
       padding: 35px;
       p{
-        @include BentonConExLight;
+        @include BentonExLight;
         font-size: 21px;
         line-height: 30px;
         color: $tundora;
@@ -1039,164 +1039,165 @@ footer{
 //Andrea CSS
 
 .titulo-portafolio{
-    color:#EC1D24;
-    line-height:68px;
-    font-size:56px;
-    font-family:Benton Sans;
+  @include BentonExLight;
+  color:#EC1D24;
+  line-height:68px;
+  font-size:56px;
 }
 
 .abstract{
-    font-size:36px;
-    color:#4A4A4A;
-    line-height:46px;
-    font-weight: 400;
-    font-family:Benton Sans;
-    letter-spacing: -1px;
+  @include BentonExLight;
+  font-size:36px;
+  color:#4A4A4A;
+  line-height:46px;
+  font-weight: 400;
+  letter-spacing: -1px;
 }
 
 .autor-rojo{
-    font-weight:100;
-    color:#EC1D24;
-    font-size:36px;
-    font-family:Benton Sans;
+  @include BentonExLight;
+  font-weight:100;
+  color:#EC1D24;
+  font-size:36px;
 }
 
 .cuerpo-texto{
-    font-size:21px;
-    font-weight:200;
-    line-height:30px;
-    font-family:Benton Sans;
+  @include BentonLight;
+  font-size:21px;
+  font-weight:200
+  line-height:30px;
 }
 
 .balazo{
   @include BentonConLight;
-    font-size:84px;
-    line-height:92px;
-    font-weight:50px;
-    color:#EC1D24;
-    text-align:justify;
+  font-size:84px;
+  line-height:92px;
+  font-weight:50px;
+  color:#EC1D24;
+  text-align:justify;
 }
 
 .balazo-negro{
-    font-family: "BentonSansComp" !important;
-    font-size:84px;
-    line-height:92px;
-    font-weight:100;
-    color:#4A4A4A;
-    text-align:justify;
+  @include BentonConLight;
+  font-size:84px;
+  line-height:92px;
+  font-weight:100;
+  color:#4A4A4A;
+  text-align:justify;
 }
 
 .quote-cliente{
-    font-weight:100;
-    color:#FFF;
-    font-size:32px;
-    line-height:38px;
+  @include BentonExLight;
+  font-weight:100;
+  color:#FFF;
+  font-size:32px;
+  line-height:38px;
 }
 
 .action-quote{
-    font-weight:400;
-    color:#FFF;
-    font-size:18px;
-    line-height:18px;
-    letter-spacing:2.32px;
+  @include BentonReg;
+  color:#FFF;
+  font-size:18px;
+  line-height:18px;
+  letter-spacing:2.32px;
 }
 
 .action-quote-rojo{
-    font-weight:400;
-    color:#EC1D24;
-    font-size:18px;
-    line-height:18px;
-    letter-spacing:2.32px;
+  @include BentonReg;
+  color:#EC1D24;
+  font-size:18px;
+  line-height:18px;
+  letter-spacing:2.32px;
 }
 
 .sector-servicios{
-    font-weight:400;
-    font-size:16px;
-    color:#848484;
+  font-weight:400;
+  font-size:16px;
+  color:#848484;
 }
 
 .autor-arriba{
-    font-weight:100;
-    color:#EC1D24;
-    font-size:24px;
-    font-family:Benton Sans;
+  @include BentonExLight;
+  font-weight:100;
+  color:#EC1D24;
+  font-size:24px;
 }
 
 .seccion{
-    font-weight:100;
-    color:#4a4a4a;
-    font-size:14px;
-    font-family:Benton Sans;
+  @include BentonExLight;
+  font-weight:100;
+  color:#4a4a4a;
+  font-size:14px;
 }
 
 .autor-quote-grande{
-    font-family:Benton Sans;
-    font-size:18px;
-    color:#4a4a4a;
-    line-height:26px;
+  font-family:Benton Sans;
+  font-size:18px;
+  color:#4a4a4a;
+  line-height:26px;
 }
 
 .quote-lateral{
-    font-family:"BentonSansComp" !important;
-    font-weight:100;
-    color:#EC1D24;
-    font-size:24px;
-    letter-spacing:2.32px;
+  font-family:"BentonSansComp" !important;
+  font-weight:100;
+  color:#EC1D24;
+  font-size:24px;
+  letter-spacing:2.32px;
 }
 
 .quote-lateral-black{
-    font-family:"BentonSansComp" !important;
-    font-weight:100;
-    color:#4A4A4A;
-    font-size:24px;
-    letter-spacing:2.32px;
+  font-family:"BentonSansComp" !important;
+  font-weight:100;
+  color:#4A4A4A;
+  font-size:24px;
+  letter-spacing:2.32px;
 }
 
 .quote-autor{
-    font-family:"BentonSans";
-    font-weight:200;
-    color:#4A4A4A;
-    font-size:14px;
+  font-family:"BentonSans";
+  font-weight:200;
+  color:#4A4A4A;
+  font-size:14px;
 }
 
 .quote-autor-puesto{
-    font-family:"BentonSans";
-    font-style:italic;
-    font-weight:100;
-    color:#9B9B9B;
-    font-size:14px;
+  font-family:"BentonSans";
+  font-style:italic;
+  font-weight:100;
+  color:#9B9B9B;
+  font-size:14px;
 }
 
 .piedefoto{
-    font-family:"BentonSansComp";
-    font-weight:200;
-    color:#616161;
-    font-size:28px;
-    line-height:33px;
+  font-family:"BentonSansComp";
+  font-weight:200;
+  color:#616161;
+  font-size:28px;
+  line-height:33px;
 }
 
 .piedefotoautor{
-    font-family:"BentonSansComp";
-    font-weight:400;
-    color:#616161;
-    font-size:28px;
-    line-height:33px;
+  font-family:"BentonSansComp";
+  font-weight:400;
+  color:#616161;
+  font-size:28px;
+  line-height:33px;
 }
 
 .piedefotolateral{
-    font-family:"BentonSansComp";
-    font-weight:200;
-    color:#616161;
-    font-size:20px;
-    line-height:25px;
+  font-family:"BentonSansComp";
+  font-weight:200;
+  color:#616161;
+  font-size:20px;
+  line-height:25px;
 }
 
 .piedefotoautorlateral{
-    font-family:"BentonSansComp";
-    font-weight:400;
-    color:#616161;
-    font-size:20px;
-    line-height:25px;
+  font-family:"BentonSansComp";
+  font-weight:400;
+  color:#616161;
+  font-size:20px;
+  line-height:25px;
 }
 
 
