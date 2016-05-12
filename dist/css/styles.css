@@ -937,10 +937,12 @@ footer {
         font-size: 20px; }
   .page .portfolio-filter a, .page .vc_grid-filter a {
     margin: 0 8px; }
-  .page .portfolio-item-block .info .title, .page .portfolio-item-block .info .title-section .subtitle, .title-section .page .portfolio-item-block .info .subtitle {
-    font-size: 24px; }
-  .page .portfolio-item-block .info .sub-title {
-    line-height: 20px; }
+  .page .portfolio-item-block .info {
+    opacity: 1; }
+    .page .portfolio-item-block .info .title, .page .portfolio-item-block .info .title-section .subtitle, .title-section .page .portfolio-item-block .info .subtitle {
+      font-size: 24px; }
+    .page .portfolio-item-block .info .sub-title {
+      line-height: 20px; }
   .piedefoto, .piedefotoautor {
     font-size: 13px; }
   .block-int-services .tactical, .block-int-services .tactical-btn,
@@ -1043,8 +1045,6 @@ footer {
     height: 500px; }
   .wpcf7-form textarea {
     width: 212%; }
-  .portfolio-item-block .info {
-    padding: 20px; }
   footer .footer-top .footer-contact .cta {
     margin-top: 38px; }
   footer .footer-bottom span {
