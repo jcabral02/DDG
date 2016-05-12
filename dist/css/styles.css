@@ -295,7 +295,7 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button 
 .page .portfolio-item-block:hover .info {
   opacity: 1; }
 
-.single .content-block .portfolio-title-position-disable {
+.single .content-block .portfolio-title-position-disable, .single .content-block .blog-post-single {
   margin-top: -30px; }
 
 .single .portfolio-item-details .project-content .vc_gitem-zone .vc_gitem_row {
@@ -535,7 +535,7 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button 
       font-style: normal;
       font-weight: 200 !important;
       color: #4A4A4A;
-      font-size: 24px;
+      font-size: 20px;
       margin-bottom: 40px; }
 
 .block-int-services .lines {
@@ -898,6 +898,14 @@ footer {
   color: #616161;
   font-size: 20px;
   line-height: 25px; }
+
+div.wpcf7-mail-sent-ok {
+  border: 1px solid #b7e0a5;
+  background: white;
+  border-radius: 2px;
+  padding: 12px;
+  color: #005200;
+  width: 48%; }
 
 @media (max-width: 480px) {
   #navbar {
