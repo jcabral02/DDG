@@ -265,18 +265,23 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button 
   width: 100%;
   margin: -60px auto 40px; }
 
-.page .portfolio-item-block .info {
+.page .portfolio-item-block .info,
+.single .portfolio-item-block .info {
   bottom: 10px;
   opacity: 0;
   left: 0 !important; }
-  .page .portfolio-item-block .info .title, .page .portfolio-item-block .info .title-section .subtitle, .title-section .page .portfolio-item-block .info .subtitle {
+  .page .portfolio-item-block .info .title, .page .portfolio-item-block .info .title-section .subtitle, .title-section .page .portfolio-item-block .info .subtitle,
+  .single .portfolio-item-block .info .title,
+  .single .portfolio-item-block .info .title-section .subtitle, .title-section
+  .single .portfolio-item-block .info .subtitle {
     font-family: "Benton Sans";
     font-style: normal;
     font-weight: 200 !important;
     font-size: 32px;
     color: #fff;
     left: 0 !important; }
-  .page .portfolio-item-block .info .sub-title {
+  .page .portfolio-item-block .info .sub-title,
+  .single .portfolio-item-block .info .sub-title {
     font-family: "Benton Sans";
     font-style: normal;
     font-weight: 200 !important;
@@ -286,13 +291,16 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button 
     margin-left: 0 !important;
     margin-bottom: 10px; }
 
-.page .portfolio-item-block .portfolio-item-bg {
+.page .portfolio-item-block .portfolio-item-bg,
+.single .portfolio-item-block .portfolio-item-bg {
   background: rgba(222, 2, 9, 0.8) !important; }
 
-.page .portfolio-item-block:hover .portfolio-item-image {
+.page .portfolio-item-block:hover .portfolio-item-image,
+.single .portfolio-item-block:hover .portfolio-item-image {
   transform: scale(1.02) rotate(0); }
 
-.page .portfolio-item-block:hover .info {
+.page .portfolio-item-block:hover .info,
+.single .portfolio-item-block:hover .info {
   opacity: 1; }
 
 .single .content-block .portfolio-title-position-disable, .single .content-block .blog-post-single {
@@ -1035,13 +1043,46 @@ footer {
   font-size: 20px;
   line-height: 25px; }
 
-div.wpcf7-mail-sent-ok {
-  border: 1px solid #b7e0a5;
+/* CSS RAMIRO
+========================================================= */
+.vc_btn3-container.vc_btn3-center .vc_btn3-block.vc_btn3-size-md {
+  width: 200px;
+  margin: 0 auto; }
+
+.post-single-content .vc_sep_pos_align_center {
+  margin-bottom: 8px; }
+
+.texto-autor-blog .vc_column-inner {
+  padding-left: 0; }
+
+.texto-autor-blog .wpb_content_element {
+  margin-bottom: 0;
+  padding: 20px; }
+
+.texto-autor-blog .blog-post .entry-content p:last-child {
+  padding: 20px; }
+
+.texto-autor-blog .vc_sep_color_grey {
+  padding: 0; }
+
+.texto-autor-blog p.autor-arriba ~ p {
+  padding-top: 0; }
+
+.wpcf7-form div.wpcf7-mail-sent-ok {
+  border: 0;
   background: white;
   border-radius: 2px;
-  padding: 12px;
-  color: #005200;
-  width: 48%; }
+  padding: 25px 25px 21px 25px;
+  color: #5d9a67;
+  width: 48%;
+  text-align: center;
+  font-size: 18px; }
+
+.wpcf7-form span.wpcf7-not-valid-tip {
+  margin-top: 3px; }
+
+.wpcf7-form div.wpcf7-validation-errors {
+  display: none !important; }
 
 @media (max-width: 480px) {
   #navbar {
