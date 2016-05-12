@@ -599,6 +599,146 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button{
   }
 }
 
+//Eduardo Danilo Landing
+.header-danilo{
+  height: 600px;
+  .subtitle-block{
+    position: relative;
+    top: 30%;
+    .subtitle{
+      @include BentonLight;
+      font-size: 32px;
+      color:$white;
+      line-height: 1.3;
+      margin: 0;
+    }
+    .display-text{
+      @include BentonExLight;
+      font-size: 99px;
+      color: $white;
+      margin: 0;
+      line-height: 1;
+      .text-red{
+        @include BentonThin;
+        color:$red;
+        font-size: 94px;
+      }
+
+    }
+  }
+}
+
+.block-bio{
+  margin-left: 10px;
+  .hito{
+    margin: 80px 0 130px 0;
+    .top-info{
+      padding: 0 0 35px 35px;
+      border-bottom: 1px solid $mercury;
+      .year{
+      @include BentonConThin;
+      font-size: 72px;
+      color: $red;
+      line-height: 92px;
+      margin: 0;
+      font-weight: 100 !important;
+      }
+      .title-bio{
+        @include BentonExLight;
+        font-size: 42px;
+        color:$tundora;
+        margin: 0;
+      }
+    }
+    .bottom-info{
+      padding: 35px;
+      p{
+        @include BentonConExLight;
+        font-size: 21px;
+        line-height: 30px;
+        color: $tundora;
+        margin: 0;
+      }
+    }
+  }
+}
+.frases{
+  margin: 350px auto 0;
+  width: 80%;
+  .txt-red{
+    @include BentonConThin;
+    color:$red;
+    font-size: 42px;
+    line-height: 1;
+    .txt-gray{
+      @include BentonConThin;
+      color:$tundora;
+    }
+  }
+}
+
+.block-era-digital{
+  height: 600px;
+}
+.top-neg{
+  position: relative;
+  top: -300px;
+}
+
+.nota-central{
+  text-align: center;
+  .title-red{
+    @include BentonConExLight;
+    font-size: 58px;
+    color:$red!important;
+    padding: 35px 0;
+    margin: 0 0 35px 0;
+  }
+  .line-bottom{
+    border-bottom: 1px solid $mercury;
+  }
+}
+.content{
+  font-size: 21px;
+  @include BentonExLight;
+  color:$tundora;
+}
+
+//Twitter
+.twitter-block{
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  .comillas{
+    float: left;
+    width: 15%;
+    text-align: center;
+  }
+  .twit{
+      float: left;
+      width: 85%;
+      p{
+        @include BentonConExLight;
+        font-size: 36px;
+        color:$red;
+        line-height: 38px;
+      }
+
+    }
+  .follow-txt{
+    width: 100%;
+    float: left;
+    clear: both;
+    margin-top: 25px;
+    padding-left: 15%;
+    p{
+      @include BentonExLight;
+      font-size: 18px;
+      color:$tundora;
+    }
+  }
+}
+
 //Servicios
 .services{
   .block-services{
