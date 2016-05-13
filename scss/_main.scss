@@ -89,7 +89,15 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button{
   margin: 35px 0 70px 0 !important;
   display: inline-block;
 }
-
+.blog-post{
+  border-bottom: none !important;
+  .tags{
+    display: none !important;
+  }
+  .blog-post-single{
+    margin-bottom: 0 !important;
+  }
+}
 //Botones
 .vc_btn3-color-danger{
   background-color: $red !important;
@@ -112,6 +120,7 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button{
 }
 .title-stage-home{
   @include BentonExLight;
+  letter-spacing: -1px;
 }
 .header-right{
   display: none !important;
@@ -314,6 +323,7 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button{
         font-size: 32px;
         color:$white;
         left: 0 !important;
+        line-height: 1.5em;
       }
       .sub-title{
         @include BentonExLight;
@@ -322,6 +332,7 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button{
         left: 0 !important;
         margin-left: 0 !important;
         margin-bottom: 10px;
+        line-height: 1.3em;
       }
     }
 
@@ -343,8 +354,11 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button{
 //Detalle Portafolio (Proyecto)
 .single{
   .content-block{
-    .portfolio-title-position-disable, .blog-post-single{
+    .portfolio-title-position-disable{
       margin-top: -30px;
+    }
+    .blog-post-single{
+      margin: -30px 0 0 0 !important;
     }
   }
   .portfolio-item-details{
@@ -378,10 +392,12 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button{
     @include BentonLight;
     font-size: 58px;
     color:$red !important;
+    letter-spacing: -1px;
   }
   .subtitle{
     @extend .title;
     font-size: 36px;
+    line-height: 1.1em;
   }
 }
 
@@ -480,6 +496,7 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button{
         font-weight: 200 !important;
         margin: 10px 0 115px -5px;
         line-height: 96px;
+        letter-spacing: -5px;
       }
     }
   }
@@ -523,13 +540,15 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button{
         margin: 0;
       }
       .title-event{
+        @include BentonExLight;
         color:$red;
         margin: 0px 0 35px;
         font-size: 28px;
-        @include BentonExLight;
+        line-height: 1.3em;
       }
       p{
         margin: 0 0 15px 0;
+        line-height: 1.3em;
       }
     }
   }
@@ -549,11 +568,13 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button{
       font-size: 32px;
       color:$red;
       @include BentonExLight;
+      line-height: 1.2em;
     }
     p{
+      @include BentonExLight;
       color:$tundora;
       font-size: 16px;
-      @include BentonExLight;
+      line-height: 1.3em;
     }
   }
   .vc_btn3-container{
@@ -642,7 +663,7 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button{
       font-weight: 100 !important;
       }
       .title-bio{
-        @include BentonExLight;
+        @include BentonThin;
         font-size: 42px;
         color:$tundora;
         margin: 0;
@@ -659,6 +680,14 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button{
       }
     }
   }
+  .hito-last{
+    @extend .hito;
+    margin: 80px 0 0 0;
+  }
+}
+.foto-innovacion{
+  position: relative;
+  margin-top: 50%;
 }
 .frases{
   margin: 350px auto 0;
@@ -680,7 +709,7 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button{
 }
 .top-neg{
   position: relative;
-  top: -300px;
+  top: -150px;
 }
 
 .nota-central{
@@ -741,13 +770,14 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button{
 .services{
   .block-services{
     .block-int{
-      h3{
+      h3, .btn-title-serv{
         @include BentonMedium;
           font-size: 24px;
           color:$red;
           font-weight: 500 !important;
+          line-height: 1.3em;
         }
-       p{
+       p, .txt-serv{
          @include BentonExLight;
          color:$dusty-gray;
          font-size: 21px;
@@ -1064,15 +1094,15 @@ footer{
 .cuerpo-texto{
   @include BentonLight;
   font-size:21px;
-  font-weight:200
-  line-height:30px;
+  font-weight:200;
+  line-height: 1.4;
 }
 
 .balazo{
   @include BentonConLight;
   font-size:84px;
   line-height:92px;
-  font-weight:50px;
+  font-weight:100;
   color:#EC1D24;
   text-align:justify;
 }
@@ -1199,7 +1229,16 @@ footer{
   font-size:20px;
   line-height:25px;
 }
-
+.subtitulos{
+  @include BentonExLight;
+  font-size: 28px;
+  color:$red;
+  padding: 0;
+  margin: 0;
+}
+.txt-white{
+  color:$white !important;
+}
 
 /* CSS RAMIRO
 ========================================================= */
