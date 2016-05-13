@@ -99,6 +99,18 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button 
   .blog-post .blog-post-single {
     margin-bottom: 0 !important; }
 
+.mid-gray {
+  background: #fafafa;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #f6f6f6 25%, #ffffff 25%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f6f6f6 25%, #ffffff 25%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f6f6f6 25%, #ffffff 25%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0 );
+  /* IE6-9 */ }
+
 .vc_btn3-color-danger {
   background-color: #EC1D24 !important; }
 
@@ -147,7 +159,7 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button 
   color: #f4f4f4; }
 
 .vc_gitem-zone .vc_gitem_row {
-  height: 380px; }
+  height: 350px; }
 
 .vc_gitem-zone .vc_custom_heading h4 {
   font-size: 32px;
@@ -1228,7 +1240,7 @@ footer {
   .single-mgt_portfolio .vc_row.vc_row-o-full-height {
     min-height: 40vh !important; }
   .single-post .vc_row.vc_row-o-full-height {
-    min-height: 36.618vh !important; }
+    min-height: 40vh !important; }
   .vc_gitem_row .vc_gitem-col {
     padding: 50px 30px 0px 30px; }
   .portfolio-single-content .box-top,
@@ -1249,19 +1261,13 @@ footer {
   .portfolio-single-content .balazo, .portfolio-single-content .balazo-negro,
   .single-post .balazo,
   .single-post .balazo-negro {
-    text-align: left; }
-  .portfolio-single-content .balazo,
-  .single-post .balazo {
-    font-size: 30px;
-    line-height: 53px; }
-  .portfolio-single-content .balazo-negro,
-  .single-post .balazo-negro {
-    font-size: 41px;
-    line-height: 69px; }
+    text-align: left;
+    font-size: 29px;
+    line-height: 42px; }
   .portfolio-single-content .quote-cliente,
   .single-post .quote-cliente {
     font-size: 24px;
-    line-height: 41px; }
+    line-height: 36px; }
   .portfolio-single-content .vc_custom_1462130212627,
   .single-post .vc_custom_1462130212627 {
     padding: 40px 0 30px !important; }
@@ -1308,10 +1314,8 @@ footer {
     .block-who-serv .bbd h2,
     .block-who-serv .serv h2, .block-who-serv .bbd h2 {
       margin-top: 0; }
-  .block-perfil {
-    margin-bottom: 100px; }
-    .block-perfil .name-seo h2 {
-      margin-top: 0; }
+  .block-perfil .name-seo h2 {
+    margin-top: 0; }
   .data-office .btn-gris {
     margin: 30px 0 30px 0 !important; }
   .block-who-serv {
