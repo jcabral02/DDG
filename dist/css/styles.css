@@ -90,6 +90,13 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button 
   margin: 35px 0 70px 0 !important;
   display: inline-block; }
 
+.blog-post {
+  border-bottom: none !important; }
+  .blog-post .tags {
+    display: none !important; }
+  .blog-post .blog-post-single {
+    margin-bottom: 0 !important; }
+
 .vc_btn3-color-danger {
   background-color: #EC1D24 !important; }
 
@@ -107,7 +114,8 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button 
 .title-stage-home {
   font-family: "Benton Sans";
   font-style: normal;
-  font-weight: 200 !important; }
+  font-weight: 200 !important;
+  letter-spacing: -1px; }
 
 .header-right {
   display: none !important; }
@@ -279,7 +287,8 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button 
     font-weight: 200 !important;
     font-size: 32px;
     color: #fff;
-    left: 0 !important; }
+    left: 0 !important;
+    line-height: 1.5em; }
   .page .portfolio-item-block .info .sub-title,
   .single .portfolio-item-block .info .sub-title {
     font-family: "Benton Sans";
@@ -289,7 +298,8 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button 
     color: #fff;
     left: 0 !important;
     margin-left: 0 !important;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    line-height: 1.3em; }
 
 .page .portfolio-item-block .portfolio-item-bg,
 .single .portfolio-item-block .portfolio-item-bg {
@@ -303,8 +313,11 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button 
 .single .portfolio-item-block:hover .info {
   opacity: 1; }
 
-.single .content-block .portfolio-title-position-disable, .single .content-block .blog-post-single {
+.single .content-block .portfolio-title-position-disable {
   margin-top: -30px; }
+
+.single .content-block .blog-post-single {
+  margin: -30px 0 0 0 !important; }
 
 .single .portfolio-item-details .project-content .vc_gitem-zone .vc_gitem_row {
   padding: 30px; }
@@ -326,9 +339,11 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button 
     font-style: normal;
     font-weight: 300;
     font-size: 58px;
-    color: #EC1D24 !important; }
+    color: #EC1D24 !important;
+    letter-spacing: -1px; }
   .title-section .subtitle {
-    font-size: 36px; }
+    font-size: 36px;
+    line-height: 1.1em; }
 
 .redes .icon {
   font-size: 20px;
@@ -416,7 +431,8 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button 
     color: #fff;
     font-weight: 200 !important;
     margin: 10px 0 115px -5px;
-    line-height: 96px; }
+    line-height: 96px;
+    letter-spacing: -5px; }
 
 .event {
   padding: 20px 0 100px;
@@ -452,14 +468,16 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button 
       color: #9B9B9B;
       margin: 0; }
     .event .block-int .date-event .title-event {
+      font-family: "Benton Sans";
+      font-style: normal;
+      font-weight: 200 !important;
       color: #EC1D24;
       margin: 0px 0 35px;
       font-size: 28px;
-      font-family: "Benton Sans";
-      font-style: normal;
-      font-weight: 200 !important; }
+      line-height: 1.3em; }
     .event .block-int .date-event p {
-      margin: 0 0 15px 0; }
+      margin: 0 0 15px 0;
+      line-height: 1.3em; }
 
 .vc_gitem_row .vc_gitem-col {
   padding: 80px 30px 0px 30px; }
@@ -472,14 +490,16 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button 
   color: #EC1D24;
   font-family: "Benton Sans";
   font-style: normal;
-  font-weight: 200 !important; }
+  font-weight: 200 !important;
+  line-height: 1.2em; }
 
 .post-home .vc_custom_heading p {
-  color: #4A4A4A;
-  font-size: 16px;
   font-family: "Benton Sans";
   font-style: normal;
-  font-weight: 200 !important; }
+  font-weight: 200 !important;
+  color: #4A4A4A;
+  font-size: 16px;
+  line-height: 1.3em; }
 
 .post-home .vc_btn3-container a {
   background: url("http://dev-danilo-design.pantheonsite.io/wp-content/uploads/2016/04/flecha.png") !important;
@@ -545,12 +565,12 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button 
 
 .block-bio {
   margin-left: 10px; }
-  .block-bio .hito {
+  .block-bio .hito, .block-bio .hito-last {
     margin: 80px 0 130px 0; }
-    .block-bio .hito .top-info {
+    .block-bio .hito .top-info, .block-bio .hito-last .top-info {
       padding: 0 0 35px 35px;
       border-bottom: 1px solid #E4E4E4; }
-      .block-bio .hito .top-info .year {
+      .block-bio .hito .top-info .year, .block-bio .hito-last .top-info .year {
         font-family: "Benton Sans Cond";
         font-style: normal;
         font-weight: 100;
@@ -559,23 +579,29 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button 
         line-height: 92px;
         margin: 0;
         font-weight: 100 !important; }
-      .block-bio .hito .top-info .title-bio {
+      .block-bio .hito .top-info .title-bio, .block-bio .hito-last .top-info .title-bio {
         font-family: "Benton Sans";
         font-style: normal;
-        font-weight: 200 !important;
+        font-weight: 100;
         font-size: 42px;
         color: #4A4A4A;
         margin: 0; }
-    .block-bio .hito .bottom-info {
+    .block-bio .hito .bottom-info, .block-bio .hito-last .bottom-info {
       padding: 35px; }
-      .block-bio .hito .bottom-info p {
-        font-family: "Benton Sans Cond";
+      .block-bio .hito .bottom-info p, .block-bio .hito-last .bottom-info p {
+        font-family: "Benton Sans";
         font-style: normal;
-        font-weight: 200;
+        font-weight: 200 !important;
         font-size: 21px;
         line-height: 30px;
         color: #4A4A4A;
         margin: 0; }
+  .block-bio .hito-last {
+    margin: 80px 0 0 0; }
+
+.foto-innovacion {
+  position: relative;
+  margin-top: 50%; }
 
 .frases {
   margin: 350px auto 0;
@@ -598,7 +624,7 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button 
 
 .top-neg {
   position: relative;
-  top: -300px; }
+  top: -150px; }
 
 .nota-central {
   text-align: center; }
@@ -651,15 +677,16 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button 
       font-size: 18px;
       color: #4A4A4A; }
 
-.services .block-services .block-int h3, .services .block-int-services .block-int h3 {
+.services .block-services .block-int h3, .services .block-int-services .block-int h3, .services .block-services .block-int .btn-title-serv, .services .block-int-services .block-int .btn-title-serv {
   font-family: "Benton Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   color: #EC1D24;
-  font-weight: 500 !important; }
+  font-weight: 500 !important;
+  line-height: 1.3em; }
 
-.services .block-services .block-int p, .services .block-int-services .block-int p {
+.services .block-services .block-int p, .services .block-int-services .block-int p, .services .block-services .block-int .txt-serv, .services .block-int-services .block-int .txt-serv {
   font-family: "Benton Sans";
   font-style: normal;
   font-weight: 200 !important;
@@ -902,30 +929,38 @@ footer {
   margin-left: 5%; }
 
 .titulo-portafolio {
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 200 !important;
   color: #EC1D24;
   line-height: 68px;
-  font-size: 56px;
-  font-family: Benton Sans; }
+  font-size: 56px; }
 
 .abstract {
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 200 !important;
   font-size: 36px;
   color: #4A4A4A;
   line-height: 46px;
   font-weight: 400;
-  font-family: Benton Sans;
   letter-spacing: -1px; }
 
 .autor-rojo {
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 200 !important;
   font-weight: 100;
   color: #EC1D24;
-  font-size: 36px;
-  font-family: Benton Sans; }
+  font-size: 36px; }
 
 .cuerpo-texto {
+  font-family: "Benton Sans" !important;
+  font-style: normal;
+  font-weight: 300;
   font-size: 21px;
   font-weight: 200;
-  line-height: 30px;
-  font-family: Benton Sans; }
+  line-height: 1.4; }
 
 .balazo {
   font-family: "Benton Sans Cond";
@@ -933,12 +968,14 @@ footer {
   font-weight: 300;
   font-size: 84px;
   line-height: 92px;
-  font-weight: 50px;
+  font-weight: 100;
   color: #EC1D24;
   text-align: justify; }
 
 .balazo-negro {
-  font-family: "BentonSansComp" !important;
+  font-family: "Benton Sans Cond";
+  font-style: normal;
+  font-weight: 300;
   font-size: 84px;
   line-height: 92px;
   font-weight: 100;
@@ -946,12 +983,17 @@ footer {
   text-align: justify; }
 
 .quote-cliente {
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 200 !important;
   font-weight: 100;
   color: #FFF;
   font-size: 32px;
   line-height: 38px; }
 
 .action-quote {
+  font-family: "Benton Sans";
+  font-style: normal;
   font-weight: 400;
   color: #FFF;
   font-size: 18px;
@@ -959,6 +1001,8 @@ footer {
   letter-spacing: 2.32px; }
 
 .action-quote-rojo {
+  font-family: "Benton Sans";
+  font-style: normal;
   font-weight: 400;
   color: #EC1D24;
   font-size: 18px;
@@ -971,16 +1015,20 @@ footer {
   color: #848484; }
 
 .autor-arriba {
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 200 !important;
   font-weight: 100;
   color: #EC1D24;
-  font-size: 24px;
-  font-family: Benton Sans; }
+  font-size: 24px; }
 
 .seccion {
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 200 !important;
   font-weight: 100;
   color: #4a4a4a;
-  font-size: 14px;
-  font-family: Benton Sans; }
+  font-size: 14px; }
 
 .autor-quote-grande {
   font-family: Benton Sans;
@@ -1042,6 +1090,18 @@ footer {
   color: #616161;
   font-size: 20px;
   line-height: 25px; }
+
+.subtitulos {
+  font-family: "Benton Sans";
+  font-style: normal;
+  font-weight: 200 !important;
+  font-size: 28px;
+  color: #EC1D24;
+  padding: 0;
+  margin: 0; }
+
+.txt-white {
+  color: #fff !important; }
 
 /* CSS RAMIRO
 ========================================================= */
