@@ -98,6 +98,14 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button{
     margin-bottom: 0 !important;
   }
 }
+.mid-gray{
+background: #fafafa; /* Old browsers */
+background: -moz-linear-gradient(top,  #f6f6f6 25%, #ffffff 25%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f6f6f6 25%,#ffffff 25%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f6f6f6 25%,#ffffff 25%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
 //Botones
 .vc_btn3-color-danger{
   background-color: $red !important;
@@ -157,7 +165,7 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button{
 }
 .vc_gitem-zone{
   .vc_gitem_row{
-    height: 380px;
+    height: 350px;
   }
   .vc_custom_heading{
     h4{
