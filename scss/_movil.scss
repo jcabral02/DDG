@@ -17,8 +17,11 @@
     .navbar-toggle{
       text-align: right;
       float: right;
+      padding: 15px;
       color: #FFF;
       background: none;
+      margin-top: -79px;
+      margin-bottom: 0;
       &:after{
         color: rgb(222, 2, 9);
         font-size: 35px;
@@ -28,11 +31,17 @@
   #menu-menu-principal-1 {
     li {
       a{
-        padding: 20px 30px;
+        font-size: 16px;
+        padding: 15px 30px;
       }
     }
   }
   .home{
+    .vc_custom_1463102807627{
+      background-position: 72% 0 !important;
+      padding-left: 31px !important;
+      padding-right: 31px !important
+    }
     .vc_row .vc_column_container>.vc_column-inner{
         padding-left: 0;
         padding-right: 0;
@@ -43,21 +52,30 @@
     .vc_gitem-zone .vc_gitem_row{
       height: auto;
     }
-    .block .block-int .subtitle-block {
-      .display-text{
-        letter-spacing: normal;
-        margin: 0;
-        font-size: 30px;
+    .block .block-int {
+      .title-block h3{
+        font-size: 13px;
+        text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
       }
-      .subtitle{
-        font-size: 30px;
+      .subtitle-block {
+        .display-text{
+          letter-spacing: normal;
+          margin: 0;
+          line-height: 34px;
+          font-size: 30px;
+        }
+        .subtitle{
+          font-size: 21px;
+          text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+        }
       }
     }
     .event .block-int .date-event .day{
       font-size: 70px;
     }
   }
-  .page {
+  .page,
+  .single {
     .title-section{
       margin: 65px 0 70px !important;
       .title{
@@ -71,13 +89,14 @@
       }
     }
     .portfolio-filter a{
-      margin: 0 8px;
+      margin: 0 5px;
     }
     .portfolio-item-block {
       .info {
-        opacity: 1;
+        // opacity: 1;
         .title{
           font-size: 24px;
+          line-height: 1.1em;
         }
         .sub-title{
           line-height: 20px;
@@ -102,7 +121,7 @@
   }
   .single-mgt_portfolio{
     .vc_row.vc_row-o-full-height{
-      min-height: 36.618vh !important;
+      min-height: 40vh !important;
     }
   }
   .single-post{
@@ -124,7 +143,7 @@
     }
     .titulo-portafolio{
       font-size: 32px;
-      line-height: 47px;
+      line-height: 38px;
     }
     .abstract{
       font-size: 25px;
@@ -232,8 +251,17 @@
     width: 212%;
   }
   footer {
-    .footer-top .footer-contact .cta{
-      margin-top: 38px;
+    .footer-top {
+      .footer-contact .cta{
+        margin-top: 38px;
+      }
+      .footer-copyright .contact i{
+        &.fa-facebook,
+        &.fa-twitter,
+        &.fa-linkedin{
+          font-size: 26px;
+        }
+      }
     }
     .footer-bottom {
       span{
@@ -244,5 +272,14 @@
         margin-top: 5px;
       }
     }
+  }
+  #top-link{
+    display: block;
+    span{
+      display: none;
+    }
+  }
+  .title-section .subtitle{
+    line-height: 1.3em;
   }
 }

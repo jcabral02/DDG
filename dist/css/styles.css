@@ -40,7 +40,9 @@ input[type="submit"], .mgt-signup-block .mgt-signup-block-form input.mgt-button 
   background: #EC1D24; }
 
 #top-link {
-  display: none !important; }
+  width: 37px;
+  height: 33px;
+  display: none; }
 
 .btn-down {
   display: block;
@@ -1153,13 +1155,21 @@ footer {
     #navbar .navbar-toggle {
       text-align: right;
       float: right;
+      padding: 15px;
       color: #FFF;
-      background: none; }
+      background: none;
+      margin-top: -79px;
+      margin-bottom: 0; }
       #navbar .navbar-toggle:after {
         color: #de0209;
         font-size: 35px; }
   #menu-menu-principal-1 li a {
-    padding: 20px 30px; }
+    font-size: 16px;
+    padding: 15px 30px; }
+  .home .vc_custom_1463102807627 {
+    background-position: 72% 0 !important;
+    padding-left: 31px !important;
+    padding-right: 31px !important; }
   .home .vc_row .vc_column_container > .vc_column-inner {
     padding-left: 0;
     padding-right: 0; }
@@ -1167,30 +1177,45 @@ footer {
     margin-top: 0 !important; }
   .home .vc_gitem-zone .vc_gitem_row {
     height: auto; }
+  .home .block .block-int .title-block h3 {
+    font-size: 13px;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3); }
   .home .block .block-int .subtitle-block .display-text {
     letter-spacing: normal;
     margin: 0;
+    line-height: 34px;
     font-size: 30px; }
   .home .block .block-int .subtitle-block .subtitle {
-    font-size: 30px; }
+    font-size: 21px;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3); }
   .home .event .block-int .date-event .day {
     font-size: 70px; }
-  .page .title-section {
+  .page .title-section,
+  .single .title-section {
     margin: 65px 0 70px !important; }
-    .page .title-section .title, .page .title-section .subtitle {
+    .page .title-section .title, .page .title-section .subtitle,
+    .single .title-section .title,
+    .single .title-section .subtitle {
       font-size: 45px; }
-    .page .title-section .subtitle {
+    .page .title-section .subtitle,
+    .single .title-section .subtitle {
       font-size: 27px; }
-      .page .title-section .subtitle a[href="mailto:contacto@danilodesign.com"] {
+      .page .title-section .subtitle a[href="mailto:contacto@danilodesign.com"],
+      .single .title-section .subtitle a[href="mailto:contacto@danilodesign.com"] {
         font-size: 20px; }
-  .page .portfolio-filter a, .page .vc_grid-filter a {
-    margin: 0 8px; }
-  .page .portfolio-item-block .info {
-    opacity: 1; }
-    .page .portfolio-item-block .info .title, .page .portfolio-item-block .info .title-section .subtitle, .title-section .page .portfolio-item-block .info .subtitle {
-      font-size: 24px; }
-    .page .portfolio-item-block .info .sub-title {
-      line-height: 20px; }
+  .page .portfolio-filter a, .page .vc_grid-filter a,
+  .single .portfolio-filter a,
+  .single .vc_grid-filter a {
+    margin: 0 5px; }
+  .page .portfolio-item-block .info .title, .page .portfolio-item-block .info .title-section .subtitle, .title-section .page .portfolio-item-block .info .subtitle,
+  .single .portfolio-item-block .info .title,
+  .single .portfolio-item-block .info .title-section .subtitle, .title-section
+  .single .portfolio-item-block .info .subtitle {
+    font-size: 24px;
+    line-height: 1.1em; }
+  .page .portfolio-item-block .info .sub-title,
+  .single .portfolio-item-block .info .sub-title {
+    line-height: 20px; }
   .piedefoto, .piedefotoautor {
     font-size: 13px; }
   .block-int-services .tactical, .block-int-services .tactical-btn,
@@ -1201,7 +1226,7 @@ footer {
   .block-cta-serv .slogan-cta {
     width: 100%; }
   .single-mgt_portfolio .vc_row.vc_row-o-full-height {
-    min-height: 36.618vh !important; }
+    min-height: 40vh !important; }
   .single-post .vc_row.vc_row-o-full-height {
     min-height: 36.618vh !important; }
   .vc_gitem_row .vc_gitem-col {
@@ -1216,7 +1241,7 @@ footer {
   .portfolio-single-content .titulo-portafolio,
   .single-post .titulo-portafolio {
     font-size: 32px;
-    line-height: 47px; }
+    line-height: 38px; }
   .portfolio-single-content .abstract,
   .single-post .abstract {
     font-size: 25px;
@@ -1295,8 +1320,16 @@ footer {
     width: 212%; }
   footer .footer-top .footer-contact .cta {
     margin-top: 38px; }
+  footer .footer-top .footer-copyright .contact i.fa-facebook, footer .footer-top .footer-copyright .contact i.fa-twitter, footer .footer-top .footer-copyright .contact i.fa-linkedin {
+    font-size: 26px; }
   footer .footer-bottom span {
     margin-right: 0; }
   footer .footer-bottom a {
     display: block;
-    margin-top: 5px; } }
+    margin-top: 5px; }
+  #top-link {
+    display: block; }
+    #top-link span {
+      display: none; }
+  .title-section .subtitle {
+    line-height: 1.3em; } }
